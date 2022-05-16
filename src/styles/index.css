@@ -1,0 +1,842 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "agright--regular";
+  src: url(../assets/fonts/agright--regular.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Black";
+  src: url(../assets/fonts/LeagueSpartan-Black.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Bold";
+  src: url(../assets/fonts/LeagueSpartan-Bold.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-ExtraBold";
+  src: url(../assets/fonts/LeagueSpartan-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-ExtraLight";
+  src: url(../assets/fonts/LeagueSpartan-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Light";
+  src: url(../assets/fonts/LeagueSpartan-Light.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Medium";
+  src: url(../assets/fonts/LeagueSpartan-Medium.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Regular";
+  src: url(../assets/fonts/LeagueSpartan-Regular.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-SemiBold";
+  src: url(../assets/fonts/LeagueSpartan-SemiBold.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Thin";
+  src: url(../assets/fonts/LeagueSpartan-Thin.ttf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "LeagueSpartan-Light", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  color: #000000;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.family-agright {
+  font-family: "agright--regular" !important;
+}
+.family-black {
+  font-family: "LeagueSpartan-Black" !important;
+}
+.family-bold {
+  font-family: "LeagueSpartan-Bold" !important;
+}
+.family-extraBold {
+  font-family: "LeagueSpartan-ExtraBold" !important;
+}
+.family-extraLight {
+  font-family: "LeagueSpartan-ExtraLight" !important;
+}
+.family-light {
+  font-family: "LeagueSpartan-Light" !important;
+}
+.family-medium {
+  font-family: "LeagueSpartan-Medium" !important;
+}
+.family-regular {
+  font-family: "LeagueSpartan-Regular" !important;
+}
+.family-semiBold {
+  font-family: "LeagueSpartan-SemiBold" !important;
+}
+.family-thin {
+  font-family: "LeagueSpartan-Thin" !important;
+}
+
+.font-white {
+  color: #ffffff !important;
+}
+.font-black {
+  color: #000000 !important;
+}
+.font-pink {
+  color: #d75f5f !important;
+}
+.font-gray {
+  color: #746a69 !important;
+}
+
+.font-xs {
+  font-size: 0.75rem;
+}
+.font-small {
+  font-size: 0.875rem;
+}
+.font-normal {
+  font-size: 1rem;
+}
+.font-medium {
+  font-size: 1.2rem;
+}
+.font-regular {
+  font-size: 1.6rem;
+}
+.font-lg {
+  font-size: 2rem;
+}
+.font-big {
+  font-size: 3rem;
+}
+
+.back-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.back-top svg {
+  color: #1a1a1a !important;
+}
+.box-number {
+  background: rgba(255, 255, 255, 0);
+  animation-name: box-show;
+  animation-duration: 2s;
+}
+
+.bg-topo {
+  background: url(../assets/background/bg-topo.png) center top no-repeat;
+  background-size: cover; 
+  height: 100vh;
+}
+.imgVideo {
+  width: 500px;
+}
+.tituloTopo {
+  font-family: agright--regular;
+  text-transform: uppercase;
+  text-align: center;
+  color: #d75f5f;
+  font-size: 3rem;
+}
+.descricaoTopo {
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-family: LeagueSpartan-Medium;
+}
+.topo-button { 
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: LeagueSpartan-SemiBold;
+  align-self: center;
+}
+.button-topo {
+  width: 280px;
+  height: 60px;
+}
+
+.bg-tratamento {
+  background: url(../assets/background/bg-tratamento.png) center no-repeat;
+  background-size: cover; 
+}
+.box-tratamento {
+  padding-right: 740px;
+  padding-left: 220px;
+}
+.tituloTratamento {
+  font-family: LeagueSpartan-Medium;
+  text-transform: uppercase;
+  color: #d75f5f;
+  font-size: 3rem;
+  line-height: 3.25rem;
+}
+.text-tratamento {
+  font-size: 1rem;
+  font-family: LeagueSpartan-Medium;
+}
+.img-check {
+  accent-color: #d75f5f;
+}
+.info-tratamento {
+  font-size: 1.2rem;
+  font-family: LeagueSpartan-Bold;
+  padding-right: 640px;
+  padding-left: 240px;
+}
+.whatsapp {
+  color: green;
+}
+.titulo-etapas {
+  font-family: agright--regular;
+  text-transform: uppercase;
+  color: #d75f5f;
+  font-size: 2.25rem;
+  text-align: center;
+}
+.subtitulo-etapas {
+  font-size: 1.5rem;
+  color: #d75f5f;
+  text-align: center;
+  line-height: 1.5rem;
+  font-family: LeagueSpartan-Regular;
+}
+.img-etapas {
+  height: 380px;
+}
+.descricao-etapas {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: LeagueSpartan-SemiBold;
+  line-height: 2.25rem;
+}
+.botaoEtapas {
+  margin-bottom: -30px;
+}
+.etapasButton {
+  width: 280px;
+  height: 60px;
+}
+.buttonEtapas {
+  color: white;
+  font-size: 1.75rem;
+  font-family: LeagueSpartan-SemiBold;
+  align-self: center;
+  text-transform: uppercase;
+}
+.bg-invista {
+  background: url(../assets/background/bg-invista.png) center top no-repeat;
+  background-size: cover; 
+}
+.titulo-invista {
+  font-family: agright--regular;
+  text-transform: uppercase;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.invista {
+  color: white;
+  font-size: 1.75rem;
+  font-family: LeagueSpartan-Medium;
+}
+.Tratamento {
+  color: white;
+  font-size: 1.2rem;
+  font-family: LeagueSpartan-Light;
+}
+.box-valor {
+  width: 420px;
+  height: 280px;
+}
+.botao-invista {
+  align-self: flex-end;
+  padding-left: 80px;
+  margin-top: 20px;
+}
+
+.invistaButton {
+  width: 260px;
+  height: 50px;
+}
+.buttonInvista {
+  color: white;
+  font-size: 1.75rem;
+  font-family: LeagueSpartan-SemiBold;
+  align-self: center;
+  text-transform: uppercase;
+}
+.button-garantia{
+  width: 360px;
+  height: 200px;
+  margin-top: -100px;
+}
+.titulo-garantia {
+  color: white;
+  font-size: 1.75rem;
+  font-family: LeagueSpartan-SemiBold;
+  margin-top: -20px;
+}
+.descricao-garantia {
+  font-size: 1rem;
+  color: white;
+  line-height: 1.2rem;
+}
+.box-bonus {
+  border-radius: 1rem;
+  border-width: 2px;
+  border-color: rgb(244 114 182);
+  border-style: solid;
+  width: 360px;
+  height: 155px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  margin-top: -2px;
+}
+.titulo-bonus {    
+  color: #ad5677;
+  font-family: agright--regular;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+}
+.descricao-bonus{
+  color: #ad5677;  
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-family: LeagueSpartan-SemiBold;
+}
+.titulo-dep {
+  font-family: agright--regular;
+  text-transform: uppercase;
+  color: #d75f5f;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.subtitulo-dep {
+  font-size: 1.5rem;
+  color: #d75f5f;
+  text-align: center;
+  line-height: 1.5rem;
+  font-family: LeagueSpartan-SemiBold;
+}
+.video-dep {
+  width: 800px;
+}
+.bg-motivos {
+  background: url(../assets/background/bg-motivos.png) center top no-repeat;
+  background-size: cover; 
+}
+.titulo-motivos {
+  font-family: agright--regular;
+  text-transform: uppercase;
+  color: #d75f5f;
+  font-size: 3rem;
+}
+.subtitulo-motivos {
+  font-family: agright--regular;
+  text-transform: uppercase;
+  color: #d75f5f;
+  font-size: 2rem;
+}
+.text-motivos {
+  font-size: 1.2rem;
+  color: #d75f5f;
+  text-align: center;
+  line-height: 1.5rem;
+  font-family: LeagueSpartan-SemiBold;
+}
+.motivosButton {
+  width: 260px;
+  height: 50px;
+}
+.buttonMotivos {
+  color: white;
+  font-size: 1.75rem;
+  font-family: LeagueSpartan-SemiBold;
+  align-self: center;
+  text-transform: uppercase;
+}
+.bg-biografia {
+  background: url(../assets/background/bg-biografia.png) center top no-repeat;
+  background-size: cover; 
+}
+.titulo-bio{
+  text-align: left;
+  text-transform: uppercase;
+  font-family: agright--regular;
+  color: #d75f5f;
+  font-size: 3rem;
+}
+.text-bio{
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.2rem;
+}
+.descricao-bio {
+  text-align: justify;
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-right: 620px;
+  padding-bottom: 80px;
+  font-family: LeagueSpartan-Regular;
+}
+
+.duvidas {
+  font-family: agright--regular;
+  text-transform: uppercase;
+  color: #d75f5f;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-left: -260px;
+}
+.bg-footer {
+  background: url(../assets/background/bg-footer.png) center top no-repeat;
+  background-size: cover; 
+}
+.footerText {
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.imgMac {
+  width: 100%;
+  height: auto;
+}
+.bars-tecnology {
+  animation-name: slidein;
+}
+.btn-pink {
+  background: white;
+  width: 350px;
+}
+.btn-pink:hover {
+  background: white;
+}
+.tec_dir {
+  border-top-left-radius: 16px;
+}
+.tec_left {
+  border-bottom-right-radius: 16px;
+}
+.strong {
+  font-family: Montserrat-Light;
+}
+.whats-message {
+  z-index: 9;
+}
+.w3-modal-content {
+  border-radius: 2em;
+}
+
+.w3-container {
+  padding: 2em 2em 0.8em;
+}
+
+.modal-cancel {
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    background-color: #EEEEEE;
+    border-color: #ECECEC;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    color: #CCCCCC;
+    height: 42px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0em;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #b40a7f !important;
+}
+
+.splide__arrow svg {
+  fill: #ad5677 !important;
+  padding-left: 14px;
+  margin-right: 20px;
+}
+
+.accordion {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 840px;
+  height: 40px;
+  border-radius: 0.375rem;
+  border: 2px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  margin-top: 0.5rem;
+  text-align: left;
+  font-size: 15px;
+  font-family: LeagueSpartan-SemiBold;
+  transition: 0.4s;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -20px;
+}
+
+.active, .accordion:hover {
+  background-color: #d75f5fb9;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+@media screen and (min-device-width: 1400px) and (max-device-width: 1820px) {
+  .tituloTopo {
+    font-size: 3.5rem;
+  }
+  .topo-button { 
+    font-size: 2.25rem;
+  }
+  .button-topo {
+    width: 320px;
+    height: 70px;
+  }
+  .imgVideo {
+    width: 600px;
+  }
+  .box-tratamento {
+  padding-right: 780px;
+  padding-left: 220px;
+  }
+  .info-tratamento {
+    padding-right: 880px;
+    padding-left: 240px;
+  }
+  .descricao-etapas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .button-garantia{
+    margin-top: -80px;
+  }
+  .titulo-garantia {
+    margin-top: -5px;
+  }
+  .descricao-garantia {
+    margin-top: 20px;
+  }
+  .box-bonus {
+    margin-top: 20px;
+  }
+  .descricao-bio {
+    padding-right: 820px;
+  }
+  .duvidas {
+    margin-left: -360px;
+  }
+  .accordion {
+    width: 900px;
+  }
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 620px) {
+  .bgTopo {
+    background: url(../assets/background/bg-topo.png) center top no-repeat;
+    background-size: cover; 
+  }
+  .tituloTopo {
+    font-size: 1.8rem;
+  }
+  .descricaoTopo {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .topo-button { 
+    font-size: 1.75rem;
+  }
+  .imageTopo {
+    width: 280px;
+  }
+  .img-video {
+    width: 320px;
+  }
+  .topoButton {
+    width: 320px;
+  }
+  .button-topo {
+    width: 260px;
+    height: 40px;
+  }
+  .bgTratamento {
+    background: url(../assets/background/tratamento.png) center top no-repeat;
+    background-size: cover; 
+  }
+  .box-tratamento {
+    margin-right: -620px;
+    padding-left: 20px;
+  }
+  .tituloTratamento {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+  .text-tratamento {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .info-tratamento {
+    margin-right: -540px;
+    padding-left: 30px;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+    font-family: LeagueSpartan-Medium;
+  }
+  .titulo-etapas {
+    font-size: 1.75rem;
+  }
+  .subtitulo-etapas {
+    font-size: 1.25rem;
+  }
+  .imgEtapas {
+    height: 400px;
+  }
+  .descricao-etapas {
+    font-size: 1.25rem;
+    line-height: 1.65rem;
+  }
+  .botaoEtapas {
+    margin-bottom: -30px;
+  }
+  .etapasButton {
+    width: 280px;
+    height: 60px;
+  }
+  .buttonEtapas {
+    color: white;
+    font-size: 1.75rem;
+    font-family: LeagueSpartan-SemiBold;
+    align-self: center;
+    text-transform: uppercase;
+  }
+  .bgInvista {
+    background: url(../assets/background/bgInvista.png) center top no-repeat;
+    background-size: cover; 
+  }
+  .titulo-invista {
+    font-size: 1.5rem;
+  }
+  .invistaTitulo {
+    font-size: 2.5rem;
+  }
+  .invista {
+    font-size: 1.4rem;
+  }
+  .Tratamento {
+    font-size: 1rem;
+  }
+  .box-valor {
+    width: 420px;
+    height: 280px;
+    margin-top: -50px;
+  }
+  .botao-invista {
+    align-self: flex-end;
+    margin-left: -90px;
+    margin-top: 20px;
+  }
+  .box-bonus {
+    width: 320px;
+    height: 155px;
+  }
+  .descricao-bonus {
+    font-size: 1.2rem;  
+  }
+  .button-garantia{
+    width: 320px;
+    height: 200px;
+    margin-top: -40px;
+  }
+  .titulo-garantia {
+    margin-top: 40px;
+  }
+  .descricao-garantia {
+    margin-top: 60px;
+    font-size: 1.2rem;  
+  }
+  .titulo-dep {
+    font-size: 1.4rem;
+  }
+  .subtitulo-dep {
+    font-size: 1rem;
+    margin-top: -20px;
+  }
+  .img-dep {
+    width: 160px;
+  }
+  .img1dep {
+    width: 160px;
+    height: 180px;
+  }
+  .img2dep {
+    width: 160px;
+    margin-top: -30px;
+    margin-bottom: 60px;
+  }
+ 
+  .bgMotivos {
+    background: url(../assets/background/bg-motivos.png) center no-repeat;
+    background-size: cover; 
+  }
+  .titulo-motivos {
+    font-size: 2rem;
+  }
+  .subtitulo-motivos {
+    font-size: 1.5rem;
+  }
+  .text-motivos {
+    font-size: 1.2rem;
+  }
+  .motivosButton {
+    width: 260px;
+    height: 50px;
+  }
+  .buttonMotivos {
+    font-size: 1.75rem;
+  }
+  .bg-bio {
+    background: url(../assets/background/bg-bio.png) center top no-repeat;
+    background-size: cover; 
+  }
+  .titulo-bio{
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .text-bio{
+    font-size: 1.2rem;
+  }
+  .descricao-bio {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-right: -570px;
+    margin-bottom: -80px; 
+  }
+  .duvidas {
+    font-size: 2.25rem;
+    margin-left: -40px;
+    line-height: 2.5rem;
+  }
+  .accordion {
+    width: 300px;
+    height: 80px;
+    margin-left: 10px;
+    padding-right: 80px;
+    line-height: 1.1rem;
+  }
+  .accordion:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-right: -50px;
+
+  }
+}
+
+/* SCROLLBAR */
+@media only screen and (min-width: 600px) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #d7c7bd;
+  }
+
+  
+  *::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: white;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #d7c7bd;
+    border-radius: 20px;
+    border: 3px solid #d7c7bd;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .buttonReserva {
+    font-size: 1.5rem;
+  }
+  .botaoVideo {
+    font-size: 1.5rem;
+  }
+  .inputEmail{
+    right: 10px;
+  }
+  .containerTopo{
+    margin-top: 200px;
+  }
+}
+/* SCROLLBAR */
