@@ -8,6 +8,7 @@ import Motivos from "./motivos";
 import Biografia from "./biografia";
 import Faq from "./faq";
 import Footer from "./footer";
+import YoutubeVideo from './youtubeVideo'
 
 
 export {
@@ -21,4 +22,6 @@ Motivos,
 Biografia,
 Faq,
 Footer,
+YoutubeVideo,
+
 };

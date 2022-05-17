@@ -12,7 +12,7 @@ export default function Page(props) {
           href="https://wa.me/message/TSSQOVGI3GRHK1"
         >
           <img
-            className="flex items-start md:items-end mr-2 md:mr-28 w-10 md:w-20"
+            className="flex items-start md:items-end mr-2 md:mr-28 w-14 md:w-20"
             src={whats}
             alt="Whatsapp"
           />

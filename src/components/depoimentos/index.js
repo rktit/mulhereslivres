@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
+import YouTube from 'react-youtube';
 
 import video from '../../assets/file/video.png'
 
@@ -46,7 +47,13 @@ export default function Page(props) {
       </SplideSlide>
     )
   }
-
+  const opts = {
+    height: "340",
+    width: '470',
+    playerVars: {
+      modestbranding: 1,
+    },
+  };
   return (
     isMobile ?
       <div className="bg-white">
@@ -60,8 +67,8 @@ export default function Page(props) {
           </div>
         </div>
         <div className="flex justify-center">
-            <img src={video} className="flex video-dep" />
-        </div>
+          <YouTube className="video-dep" videoId={"VFWzueRlKXM"} opts={opts}/>
+        </div> 
         <div className="flex flex-wrap px-4 py-6 justify-center content-center">
             <img src={depoimento4} className="flex img-dep" />
             <img src={depoimento3} className="flex img1dep" />
@@ -81,10 +88,9 @@ export default function Page(props) {
               Já são mais de 500 mulheres curadas.<br />
             </div> 
             <div className="flex justify-center">
-              <button onClick={() =>window.location.href='https://youtu.be/VFWzueRlKXM'}>
-              <img src={video} className="flex video-dep pt-10" /></button></div>          
+                <YouTube className="video-dep" videoId={"VFWzueRlKXM"} opts={opts}/>
+            </div>        
           </div>
-
           <div className="flex justify-center align-center">
             <div className="w-10/12 justify-center py-10">
               <div className="box-planta flex flex-row w-auto">

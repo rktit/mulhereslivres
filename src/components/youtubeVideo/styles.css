@@ -1,0 +1,23 @@
+.content{
+    color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.p {
+    color: #ffffff !important;
+    font-family: "GothamBook";
+}
+
+.video-top iframe {
+    height: 280px !important;
+}
+
+.texts{
+    margin-top: -6px;
+    background-color:#ff0d29;
+    padding: 5px;
+}

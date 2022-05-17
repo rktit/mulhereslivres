@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
+import YouTube from 'react-youtube';
 
 import botao from '../../assets/cta/botao-reservar.png'
 import logo from '../../assets/logo/logo-azul.png'
@@ -35,7 +36,13 @@ export default function Page(props) {
       setMobile(true)
     }
   }, [window.innerWidth])
-
+  const opts = {
+    height: "320",
+    width: '470',
+    playerVars: {
+      modestbranding: 1,
+    },
+  };
   return (
     isMobile ?
       <div className="flex-auto bgTopo">
@@ -44,8 +51,8 @@ export default function Page(props) {
             <img src={logo} className="imageTopo flex items-center py-4" />
           </div>
           <div className="flex justify-center">
-            <button onClick={() => window.location.href = 'https://youtu.be/LSNt6WWPm5c'}>
-              <img src={video} className="flex img-video" /></button></div>
+            <YouTube className="img-video" videoId={"LSNt6WWPm5c"} opts={opts}/>
+          </div> 
         </div>
         <div className="tituloTopo pt-6">Livre-se do<br /> vaginismo!
           </div>
@@ -74,13 +81,17 @@ export default function Page(props) {
                   <button type="submit" className="absolute topo-button" onClick={("")}>Quero ser livre</button>
                 </div>
               </div>
-              <div className="flex">
-                <button onClick={() => window.location.href = 'https://youtu.be/LSNt6WWPm5c'}>
-                  <img src={video} className="flex imgVideo" /></button>
-              </div>
+              <div className="flex justify-center">
+            <YouTube className="imgVideo" videoId={"LSNt6WWPm5c"} opts={opts}/>
+          </div> 
             </div>
           </div>
         </div>
       </ScrollableAnchor>
   )
 }
+
+
+
+
+
