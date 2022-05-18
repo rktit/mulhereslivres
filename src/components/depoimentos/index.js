@@ -111,6 +111,7 @@ export default function Page(props) {
                       perPage: 3,
                       pagination: isMobile,
                       arrows: !isMobile,
+                      type   : 'loop',
                       }}
                     >
                       <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>

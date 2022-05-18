@@ -106,7 +106,7 @@ a {
   color: #d75f5f !important;
 }
 .font-gray {
-  color: #c7c7c7 !important;
+  color: #746a69 !important;
 }
 
 .font-xs {
@@ -161,36 +161,33 @@ a {
 .imgVideo {
   width: 500px;
 }
- .tituloTopo {
+.tituloTopo {
   font-family: agright--regular;
   text-transform: uppercase;
   text-align: center;
   color: #d75f5f;
   font-size: 3rem;
 }
-/*.tituloModal {
+.tituloModal {
   font-family: agright--regular;
   text-transform: uppercase;
   text-align: center;
-  color: #c66e76;
-  font-size: 2rem;
+  color: #d75f5f;
+  font-size: 2.5rem;
   margin-top: 30px;
-  line-height: 3.25rem;
 }
 .inputModal{
-  width: 380px;
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #c02178;
-  border-radius: 30px;
-  font-size: 1rem;
-  font-family: LeagueSpartan-Regular;
-  margin-left: 10px;
+  border: 2px solid #d75f5f;
+  border-radius: 20px;
+  font-size: 1.5rem;
 }
 .inputModal:focus {
   outline: none !important;
-  border: 1px solid #c02178;
+  border: 2px solid #d75f5f;
 }
 .modal-button { 
   font-size: 2rem;
@@ -212,12 +209,12 @@ a {
   right: 60px;
 }
 .meia-borboleta-img-modal {
-  width: 6%;
+  width: 8%;
   height: auto;
   position: absolute;
   display: flex;
-  margin-top: -60px;
-  right: 80px;
+  margin-top: -70px;
+  right: 40px;
 }
 .button-close-modal{
   display: flex;
@@ -229,7 +226,7 @@ a {
 }
 .button-close-modal:focus {
   border: 2px solid #CCCCCC;
-} */
+}
 .descricaoTopo {
   font-size: 1.25rem;
   text-align: center;
@@ -587,15 +584,18 @@ a {
 }
 
 .accordion:after {
-  content: '\002B';
-  color: black;
-  font-weight: bold;
+  content: '\2227	';
+  color: white;
+  background-color: #ad5677;
+  width: 30px;
   float: right;
   margin-left: 5px;
+  border-radius: 9999px;
+  text-align: center;
 }
 
 .active:after {
-  content: "\2212";
+  content: "\2228";
 }
 
 .panel {
