@@ -9,7 +9,7 @@ import Biografia from "./biografia";
 import Faq from "./faq";
 import Footer from "./footer";
 import YoutubeVideo from './youtubeVideo'
-import ModalForm from './modal';
+// import ModalForm from './modal';
 
 export {
 Aplicativo,
@@ -23,5 +23,5 @@ Biografia,
 Faq,
 Footer,
 YoutubeVideo,
-ModalForm,
+// ModalForm,
 };

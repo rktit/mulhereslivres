@@ -1,24 +1,24 @@
-import React, { createContext, useState, useContext } from 'react';
+// import React, { createContext, useState, useContext } from 'react';
 
-const ModalContext = createContext();
+// const ModalContext = createContext();
 
-function DataModalProvider({children}){
-    const [showModal, setShowModal] = useState(false);
+// function DataModalProvider({children}){
+//     const [showModal, setShowModal] = useState(false);
 
-    const statusModal = (status) =>{
-        setShowModal(status);
-    }
+//     const statusModal = (status) =>{
+//         setShowModal(status);
+//     }
 
-    return(
-        <ModalContext.Provider
-            value={{
-                statusModal,
-                showModal
-            }}
-        >
-            {children}
-        </ModalContext.Provider>
-    )
-}
+//     return(
+//         <ModalContext.Provider
+//             value={{
+//                 statusModal,
+//                 showModal
+//             }}
+//         >
+//             {children}
+//         </ModalContext.Provider>
+//     )
+// }
 
-export {DataModalProvider, ModalContext}
+// export {DataModalProvider, ModalContext}

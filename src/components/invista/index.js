@@ -6,12 +6,12 @@ import mais from '../../assets/file/mais.png'
 import botao from '../../assets/cta/botao-reservar.png'
 import garantia from '../../assets/cta/garantia.png'
 import valor from '../../assets/file/tabelaValor.png'
-import {ModalContext} from '../../context/index';
+// import {ModalContext} from '../../context/index';
 
 export default function Page(props) {
     const btnScrollTop = useRef(null)
     const [showBtn, setShowBtn] = useState(false)
-    const {statusModal} = useContext(ModalContext);
+    // const {statusModal} = useContext(ModalContext);
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
@@ -67,7 +67,7 @@ export default function Page(props) {
                             <div className="flex relative box-valor mb-10">
                                 <div className="flex absolute botao-invista justify-center">
                                     <img src={botao} className="flex invistaButton" />
-                                    <button type="submit" className="absolute buttonInvista" onClick={()=>{statusModal(true)}}>Quero ser livre</button>
+                                    <button type="submit" className="absolute buttonInvista" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ export default function Page(props) {
                                 <img src={valor} className="flex absolute pt-4 pr-2" />
                                 <div className="flex absolute botao-invista  justify-center">
                                     <img src={botao} className="flex invistaButton" />
-                                    <button type="submit" className="absolute buttonInvista" onClick={()=>{statusModal(true)}}>Quero ser livre</button>
+                                    <button type="submit" className="absolute buttonInvista" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                                 </div>
                             </div>
                         </div>

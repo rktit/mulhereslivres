@@ -12,7 +12,7 @@ import {
   Biografia,
   Faq,
   Footer,
-  ModalForm
+  // ModalForm
 } from "../../components";
 
 const Home_Page = () => {
@@ -20,7 +20,7 @@ const Home_Page = () => {
 
   return (
     <div>
-      <ModalForm />
+      {/* <ModalForm /> */}
       <Aplicativo />
       <Topo />
       <Tratamento />

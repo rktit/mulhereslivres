@@ -11,12 +11,12 @@ import etapa2mobile from '../../assets/cta/02etapa.png'
 import etapa3mobile from '../../assets/cta/03etapa.png'
 import etapa4mobile from '../../assets/cta/04etapa.png'
 import botao from '../../assets/cta/botao-reservar.png'
-import {ModalContext} from '../../context/index';
+// import {ModalContext} from '../../context/index';
 
 export default function Page(props) {
     const btnScrollTop = useRef(null)
     const [showBtn, setShowBtn] = useState(false)
-    const {statusModal} = useContext(ModalContext);
+    // const {statusModal} = useContext(ModalContext);
     
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
@@ -67,7 +67,7 @@ export default function Page(props) {
                         </div>
                         <div className="relative flex botaoEtapas justify-center pt-6">
                             <img src={botao} className="flex etapasButton" />
-                            <button type="submit" className="absolute buttonEtapas"onClick={()=>{statusModal(true)}}>Quero ser livre</button>
+                            <button type="submit" className="absolute buttonEtapas"onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                         </div>
                     </Fade>
                 </div>
@@ -98,7 +98,7 @@ export default function Page(props) {
                         </div>
                         <div className="relative flex botaoEtapas justify-center pt-6">
                             <img src={botao} className="flex etapasButton" />
-                            <button type="submit" className="absolute buttonEtapas" onClick={()=>{statusModal(true)}}>Quero ser livre</button>
+                            <button type="submit" className="absolute buttonEtapas" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                         </div>
                     </Fade>
                 </div >

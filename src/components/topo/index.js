@@ -5,12 +5,12 @@ import YouTube from 'react-youtube';
 import botao from '../../assets/cta/botao-reservar.png'
 import logo from '../../assets/logo/logo-azul.png'
 import video from '../../assets/file/video-topo.png'
-import {ModalContext} from '../../context/index';
+// import {ModalContext} from '../../context/index';
 
 export default function Page(props) {
   const btnScrollTop = useRef(null)
   const [showBtn, setShowBtn] = useState(false)
-  const {statusModal} = useContext(ModalContext);
+  // const {statusModal} = useContext(ModalContext);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
@@ -57,7 +57,7 @@ export default function Page(props) {
           </div>
         <div className="relative flex justify-center pt-6 pb-10">
           <img src={botao} className="flex button-topo" />
-          <button type="submit" className="absolute topo-button pt-1" onClick={()=>{statusModal(true)}}>Quero ser livre</button>
+          <button type="submit" className="absolute topo-button pt-1" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
         </div>
       </div>
       :
@@ -75,7 +75,7 @@ export default function Page(props) {
                 </div>
                 <div className="relative flex justify-center pt-10">
                   <img src={botao} className="flex button-topo" />
-                  <button type="submit" className="absolute topo-button" onClick={()=>{statusModal(true)}}>Quero ser livre</button>
+                  <button type="submit" className="absolute topo-button" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                 </div>
               </div>
               <div className="flex justify-center">

@@ -7,12 +7,12 @@ import motivo2 from '../../assets/file/02.png'
 import motivo3 from '../../assets/file/03.png'
 
 import botao from '../../assets/cta/botao-reservar.png'
-import {ModalContext} from '../../context/index';
+// import {ModalContext} from '../../context/index';
 
 export default function Page(props) {
     const btnScrollTop = useRef(null)
     const [showBtn, setShowBtn] = useState(false)
-    const {statusModal} = useContext(ModalContext);
+    // const {statusModal} = useContext(ModalContext);
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
@@ -62,7 +62,7 @@ export default function Page(props) {
                         
                         <div className="relative flex justify-center py-10">
                             <img src={botao} className="flex motivosButton" />
-                            <button type="submit" className="absolute buttonMotivos"  onClick={()=>{statusModal(true)}}>Quero ser livre</button>
+                            <button type="submit" className="absolute buttonMotivos"  onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                         </div>
                     </Fade>
                 </div>
@@ -92,7 +92,7 @@ export default function Page(props) {
 
                         <div className="relative flex justify-center py-10">
                             <img src={botao} className="flex motivosButton" />
-                            <button type="submit" className="absolute buttonMotivos" onClick={()=>{statusModal(true)}}>Quero ser livre</button>
+                            <button type="submit" className="absolute buttonMotivos" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                         </div>
                     </Fade>
                 </div >
