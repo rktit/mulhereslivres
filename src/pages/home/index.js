@@ -12,6 +12,7 @@ import {
   Biografia,
   Faq,
   Footer,
+  ModalForm
 } from "../../components";
 
 const Home_Page = () => {
@@ -19,6 +20,7 @@ const Home_Page = () => {
 
   return (
     <div>
+      <ModalForm />
       <Aplicativo />
       <Topo />
       <Tratamento />

@@ -1337,6 +1337,11 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@headlessui/react@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.6.1.tgz#d822792e589aac005462491dd62f86095e0c3bef"
+  integrity sha512-gMd6uIs1U4Oz718Z5gFoV0o/vD43/4zvbyiJN9Dt7PK9Ubxn+TmJwTmYwyNJc5KxxU1t0CmgTNgwZX9+4NjCnQ==
+
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
   resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.5.0.tgz"
@@ -9763,6 +9768,11 @@ raw-body@2.4.0:
     http-errors "1.7.2"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
+
+react-accessible-accordion@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-accessible-accordion/-/react-accessible-accordion-5.0.0.tgz#5b61d06aec38906a99f977c10324d9bddec0f64c"
+  integrity sha512-MT2obYpTgLIIfPr9d7hEyvPB5rg8uJcHpgA83JSRlEUHvzH48+8HJPvzSs+nM+XprTugDgLfhozO5qyJpBvYRQ==
 
 react-app-polyfill@^2.0.0:
   version "2.0.0"
