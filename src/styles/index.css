@@ -584,7 +584,7 @@ a {
 }
 
 .accordion:after {
-  content: '\2227	';
+  content: '\2228	';
   color: white;
   background-color: #ad5677;
   width: 30px;
@@ -595,7 +595,7 @@ a {
 }
 
 .active:after {
-  content: "\2228";
+  content: "\2227";
 }
 
 .panel {
@@ -848,8 +848,6 @@ a {
     line-height: 1.1rem;
   }
   .accordion:after {
-    content: '\002B';
-    color: black;
     font-weight: bold;
     float: right;
     margin-right: -50px;
