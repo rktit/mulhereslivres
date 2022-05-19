@@ -58,22 +58,24 @@ export default function Page(props) {
     isMobile ?
       <div className="bg-white">
         <div className="flex-auto flex-col pt-10" >
-            <div className="titulo-dep" >
-              Elas já encontraram a<br /> liberdade do vaginismo!<br />
-            </div>
+          <div className="titulo-dep" >
+            Elas já encontraram a<br /> liberdade do vaginismo!<br />
+          </div>
           <div className="subtitulo-dep pb-5">
             <br />
             Já são mais de 500 mulheres curadas.<br />
           </div>
         </div>
         <div className="flex justify-center">
-          <YouTube className="video-dep pt-4" videoId={"VFWzueRlKXM"} opts={opts}/>
-        </div> 
-        <div className="flex flex-wrap px-4 py-6 justify-center content-center">
-            <img src={depoimento4} className="flex img-dep" />
-            <img src={depoimento3} className="flex img1dep" />
-            <img src={depoimento2} className="flex img-dep" />
-            <img src={depoimento1} className="flex img2dep" />
+          <YouTube className="video-dep pt-4" videoId={"VFWzueRlKXM"} opts={opts} />
+        </div>
+        <div className="flex pl-3 items-center">
+          <div className="flex flex-wrap py-6 justify-center self-center">
+            <img src={depoimento4} className="img-dep" />
+            <img src={depoimento3} className="img1dep" />
+            <img src={depoimento2} className="img-dep" />
+            <img src={depoimento1} className="img2dep" />
+          </div>
         </div>
       </div>
 
@@ -82,14 +84,14 @@ export default function Page(props) {
         <div className="bg-white">
           <div className="flex flex-col">
             <div className="titulo-dep pt-20" >
-                Elas já encontraram a <br />liberdade do vaginismo!
+              Elas já encontraram a <br />liberdade do vaginismo!
             </div>
             <div className="subtitulo-dep pt-4">
               Já são mais de 500 mulheres curadas.<br />
-            </div> 
+            </div>
             <div className="flex justify-center">
-                <YouTube className="video-dep pt-4" videoId={"VFWzueRlKXM"} opts={opts}/>
-            </div>        
+              <YouTube className="video-dep pt-4" videoId={"VFWzueRlKXM"} opts={opts} />
+            </div>
           </div>
           <div className="flex justify-center align-center">
             <div className="w-10/12 justify-center py-10">
@@ -105,13 +107,13 @@ export default function Page(props) {
                       ref={ref}
                       className="splide-badges col-12"
                       options={{
-                      rewind: true,
-                      width: '100%',
-                      gap: '0rem',
-                      perPage: 3,
-                      pagination: isMobile,
-                      arrows: !isMobile,
-                      type   : 'loop',
+                        rewind: true,
+                        width: '100%',
+                        gap: '0rem',
+                        perPage: 3,
+                        pagination: isMobile,
+                        arrows: !isMobile,
+                        type: 'loop',
                       }}
                     >
                       <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>

@@ -63,9 +63,9 @@ export default function Page(props) {
                                 <img src={etapa4mobile} className="flex w-auto"  />
                             </div>
                         </div>
-                        <div className="descricao-etapas pt-10 px-10">E quando você concluir a última etapa você finalmente estará livre do Vaginismo
+                        <div className="descricao-etapas pt-10 px-4">E quando você concluir a última etapa você finalmente estará livre do Vaginismo
                         </div>
-                        <div className="relative flex botaoEtapas justify-center pt-6">
+                        <div className="flex relative botaoEtapas justify-center pt-6">
                             <img src={botao} className="flex etapasButton" />
                             <button type="submit" className="absolute buttonEtapas"onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                         </div>
