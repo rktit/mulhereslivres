@@ -883,43 +883,7 @@ a {
     margin-right: -10px;
   }
 }
-@media (max-width: 540px) {
-  .descricao-etapas {
-    color: #000000;
-  }
-  .titulo-invista {
-    font-size: 1.8rem;
-  }
-  .invistaTitulo {
-    font-size: 2.8rem;
-  }
-  .invista {
-    font-size: 2rem;
-  }
-  .Tratamento {
-    font-size: 1.5rem;
-  }
-  .box-valor {
-    margin-top: 40px;
-    padding-left: 50px;  
-}
-  .box-bonus {
-    margin-top: 40px;
-    margin-left: 60px;  
-  }
-  .descricao-bonus {
-    font-size: 1.2rem;  
-  }
-  .img2dep {
-    margin-top: -100px;
-  }
-  .titulo-bio{
-    padding-bottom: 80px;
-  }
-  .accordion {
-    width: 450px;
-  }
-}
+
 /* SCROLLBAR */
 @media only screen and (min-width: 600px) {
   * {
