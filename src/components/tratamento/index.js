@@ -40,7 +40,7 @@ export default function Page(props) {
                     <Fade>
                         <div className="flex flex-col box-tratamento">
                             <div className="tituloTratamento pt-4 pb-4">
-                                Para<br /> quem é este tratamento?
+                                Para quem é este tratamento?
                             </div>
                             <div className="flex text-tratamento py-2">
                                 <img src={check} className="img-check self-center pr-3 h-3" width="25" /> Se você tem Vaginismo.

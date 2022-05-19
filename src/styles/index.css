@@ -478,7 +478,6 @@ a {
   color: #d75f5f;
   font-size: 2.5rem;
   text-align: center;
-  margin-left: -260px;
 }
 .bg-footer {
   background: url(../assets/background/bg-footer.png) center top no-repeat;
@@ -576,7 +575,6 @@ a {
   transition: 0.4s;
   padding-left: 20px;
   padding-right: 20px;
-  margin-left: -20px;
 }
 
 .active, .accordion:hover {
@@ -584,8 +582,9 @@ a {
 }
 
 .accordion:after {
-  content: '\2228	';
+  content: '\2228';
   color: white;
+  font-weight: bold;
   background-color: #ad5677;
   width: 30px;
   float: right;
@@ -652,7 +651,7 @@ a {
 }
 
 
-@media screen and (min-device-width: 320px) and (max-device-width: 620px) {
+@media screen and (min-device-width: 280px) and (max-device-width: 620px) {
   .bgTopo {
     background: url(../assets/background/bg-topo.png) center top no-repeat;
     background-size: cover; 
@@ -782,8 +781,7 @@ a {
     margin-top: -20px;
   }
   .video-dep {
-    width: 300px;
-    height: 200px;
+    width: 320px;
   }
   .img-dep {
     width: 160px;
@@ -843,18 +841,53 @@ a {
   .accordion {
     width: 300px;
     height: 80px;
-    margin-left: 10px;
-    padding-right: 80px;
+    margin-left: -40px;
+    padding-right: 40px;
     line-height: 1.1rem;
   }
   .accordion:after {
     font-weight: bold;
     float: right;
-    margin-right: -50px;
-
+    margin-right: -10px;
   }
 }
-
+@media (max-width: 540px) {
+  .descricao-etapas {
+    color: #000000;
+  }
+  .titulo-invista {
+    font-size: 1.8rem;
+  }
+  .invistaTitulo {
+    font-size: 2.8rem;
+  }
+  .invista {
+    font-size: 2rem;
+  }
+  .Tratamento {
+    font-size: 1.5rem;
+  }
+  .box-valor {
+    margin-top: 40px;
+    padding-left: 50px;  
+}
+  .box-bonus {
+    margin-top: 40px;
+    margin-left: 60px;  
+  }
+  .descricao-bonus {
+    font-size: 1.2rem;  
+  }
+  .img2dep {
+    margin-top: -100px;
+  }
+  .titulo-bio{
+    padding-bottom: 80px;
+  }
+  .accordion {
+    width: 450px;
+  }
+}
 /* SCROLLBAR */
 @media only screen and (min-width: 600px) {
   * {

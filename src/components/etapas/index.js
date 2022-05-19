@@ -51,16 +51,16 @@ export default function Page(props) {
                         </div>
                         <div className="flex flex-wrap justify-center items-center">
                             <div className="flex imgEtapas py-4 pr-2">
-                                <img src={etapa1mobile} className="flex" width="240" />
+                                <img src={etapa1mobile} className="flex w-auto"  />
                             </div>
                             <div className="flex imgEtapas py-4 pl-6">
-                                <img src={etapa2mobile} className="flex" width="250" />
+                                <img src={etapa2mobile} className="flex w-auto"  />
                             </div>
                             <div className="flex imgEtapas py-4 pr-2">
-                                <img src={etapa3mobile} className="flex" width="250" />
+                                <img src={etapa3mobile} className="flex w-auto"  />
                             </div>
-                            <div className="flex imgEtapas py-4 pl-6">
-                                <img src={etapa4mobile} className="flex" width="250" />
+                            <div className="flex imgEtapas py-4 pl-10">
+                                <img src={etapa4mobile} className="flex w-auto"  />
                             </div>
                         </div>
                         <div className="descricao-etapas pt-10 px-10">E quando você concluir a última etapa você finalmente estará livre do Vaginismo

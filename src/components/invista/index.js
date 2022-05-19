@@ -72,7 +72,7 @@ export default function Page(props) {
                             </div>
                         </div>
 
-                        <div className="text-center pl-10">
+                        <div className="flex text-center pl-10">
                             <div className="box-bonus">
                                 <div className="titulo-bonus pt-5">
                                     Bônus
