@@ -593,7 +593,7 @@ a {
 .accordion2{
   background-color: white;
   color: black;
-  width: 840px;
+  /* width: 840px; */
   display: flex;
   flex-direction: column;
   /* height: 40px; */
@@ -616,6 +616,8 @@ a {
   border: 2px;
   width: 100%;
 }
+
+.ant-collapse-content-box { background-color: #ececec }
 
 @media screen and (min-device-width: 1400px) and (max-device-width: 1820px) {
   .tituloTopo {
@@ -654,9 +656,9 @@ a {
   .descricao-bio {
     padding-right: 820px;
   }
-  .duvidas {
+  /* .duvidas {
     margin-left: -360px;
-  }
+  } */
   .accordion2 {
     width: 900px;
   }
@@ -880,7 +882,7 @@ a {
   }
   .duvidas {
     font-size: 2.25rem;
-    margin-left: -40px;
+    /* margin-left: -40px; */
     line-height: 2.5rem;
   }
   /* .accordion {
