@@ -99,7 +99,7 @@ export default function Page(props) {
                             expandIcon={({ isActive }) => <RightCircleFilled style={{color:'#ad5677', fontSize: '20px'}} rotate={isActive ? 90 : 0} />}
                         >
                             <Panel header="O que é o MULHERES LIVRES? Como eu posso me inscrever?" key="5">
-                                <p>O Mulheres Livres é um tratamento para mulheres que tem dor durante a penetração, desde exames ginecológicos até relação sexual. Mulheres que tem Vaginismo ou dispareunia por tensão muscular. É um tratamento para mulheres que querem se livrar da dor e ter uma vida com mais prazer e saúde. Para se inscrever, basta clicar aqui e garantir sua vaga.</p>
+                                <p>O Mulheres Livres é um tratamento para mulheres que tem dor durante a penetração, desde exames ginecológicos até relação sexual. Mulheres que tem Vaginismo ou dispareunia por tensão muscular. É um tratamento para mulheres que querem se livrar da dor e ter uma vida com mais prazer e saúde. Para se inscrever, basta <a href="https://sun.eduzz.com/1436910?cupom=sejalivre" target="_blank">clicar aqui</a> e garantir sua vaga.</p>
                             </Panel>
                         </Collapse>
                         <Collapse 
