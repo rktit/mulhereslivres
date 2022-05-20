@@ -654,7 +654,8 @@ a {
     width: 900px;
   }
 }
-@media screen and (min-device-width: 381px) and (max-device-width: 620px) {
+
+@media (min-device-width: 410px) and (max-device-width: 620px) {
   .accordion2{
     width: 350px;
   }
@@ -669,6 +670,20 @@ a {
   }
 }
 
+@media (min-device-width: 381px) and (max-device-width: 409px) {  
+  .accordion2{
+    width: 350px;
+  }
+  .box-valor {
+    height: 280px;
+    margin-top: -90px;
+  }
+  .botao-invista {
+    align-self: flex-end;
+    margin-left: -30px;
+    margin-bottom: 30px;
+  }
+}
 @media screen and (min-device-width: 280px) and (max-device-width: 380px) {
   .accordion2{
     width: 300px;
@@ -861,7 +876,7 @@ a {
     margin-left: -40px;
     line-height: 2.5rem;
   }
-  .accordion {
+  /* .accordion {
     width: 300px;
     height: 80px;
     margin-left: -40px;
@@ -872,7 +887,7 @@ a {
     font-weight: bold;
     float: right;
     margin-right: -10px;
-  }
+  } */
 }
 
 /* SCROLLBAR */
