@@ -112,9 +112,9 @@ export default function Page(props) {
                             <div className="flex text-tratamento py-2">
                                 <img src={check} className="self-center pr-3 h-3" width="25" /> Para quem sente que existe uma parede na entrada do canal vaginal.
                             </div>
-                        </div>
-                        <div className="info-tratamento pt-6 pl-6 pb-32">
+                        <div className="info-tratamento pt-6 pb-32">
                             Se você ficou com qualquer dúvida, clique no botão do <strong className="whatsapp px-1"> WhatsApp </strong> ao lado e fale com nossa equipe agora mesmo.
+                        </div>
                         </div>
                     </Fade>
                     <Etapas />

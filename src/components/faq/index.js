@@ -39,7 +39,7 @@ export default function Page(props) {
         <ScrollableAnchor id={'faq'}>
             <Fade>
                 <h2 className="duvidas px-10 md:px-0 py-2 md:py-10 pt-10 md:pt-0">DÚVIDAS FREQUENTES</h2>
-                <div className="boxAccordion">
+                <div className="boxAccordion pb-10">
                     <Collapse className="accordion2" accordion expandIconPosition={'right'}>
                         <Panel header="Quando me inscrever, como vou receber o meu acesso?" key="0">
                             <p>Assim que sua inscrição for confirmada, você receberá um e-mail de confirmação com os dados de acesso, seu login e senha da plataforma. Esse e-mail será enviado para o seu e-mail cadastrado no momento da compra. Lembre-se sempre de verificar na caixa de SPAM ou promoção caso não encontre na caixa de entrada. Se não receber o e-mail mesmo assim, entre em contato com contato@dravaginismo.com.br.</p>

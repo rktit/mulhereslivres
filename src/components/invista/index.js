@@ -58,8 +58,8 @@ export default function Page(props) {
                                     <div className="flex Tratamento py-2">
                                         <img src={mais} className="self-center pr-3 h-7" width="30" />
                                         Suporte pelo WhatsApp
-                                    </div>
-                                    <div className="flex Tratamento py-2 pb-10">
+                                    </div> 
+                                    <div className="flex Tratamento py-2 pb-20">
                                         <img src={mais} className="self-center pr-3 h-7" width="30" />
                                         Encontros mensais online<br /> com a Dra. Amanda Almeida.
                                     </div>

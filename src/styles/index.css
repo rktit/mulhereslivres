@@ -609,34 +609,7 @@ a {
   border: 2px;
   width: 100%;
 }
-.active, .accordion:hover {
-  background-color: #d75f5fb9;
-}
 
-.accordion:after {
-  content: '\2228';
-  color: white;
-  font-weight: bold;
-  background-color: #ad5677;
-  width: 30px;
-  float: right;
-  margin-left: 5px;
-  border-radius: 9999px;
-  text-align: center;
-}
-
-.active:after {
-  content: "\2227";
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  display: none;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
 @media screen and (min-device-width: 1400px) and (max-device-width: 1820px) {
   .tituloTopo {
     font-size: 3.5rem;
@@ -677,11 +650,40 @@ a {
   .duvidas {
     margin-left: -360px;
   }
-  .accordion {
+  .accordion2 {
     width: 900px;
   }
 }
+@media screen and (min-device-width: 381px) and (max-device-width: 620px) {
+  .accordion2{
+    width: 350px;
+  }
+  .box-valor {
+    height: 280px;
+    margin-top: -80px;
+  }
+  .botao-invista {
+    align-self: flex-end;
+    margin-left: -15px;
+    margin-bottom: 30px;
+  }
+}
 
+@media screen and (min-device-width: 280px) and (max-device-width: 380px) {
+  .accordion2{
+    width: 300px;
+  }
+  .box-valor {
+    height: 280px;
+    margin-top: -80px;
+  }
+  .botao-invista {
+    align-self: flex-end;
+    margin-left: -40px;
+    margin-bottom: 30px;
+  }
+
+}
 
 @media screen and (min-device-width: 280px) and (max-device-width: 620px) {
   .bgTopo {
@@ -774,15 +776,6 @@ a {
   }
   .Tratamento {
     font-size: 1rem;
-  }
-  .box-valor {
-    height: 280px;
-    margin-top: -80px;
-  }
-  .botao-invista {
-    align-self: flex-end;
-    margin-left: -15px;
-    margin-top: 20px;
   }
   .box-bonus {
     width: 320px;
