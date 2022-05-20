@@ -251,7 +251,7 @@ a {
   background-size: cover; 
 }
 .box-tratamento {
-  padding-right: 740px;
+  padding-right: 700px;
   padding-left: 220px;
 }
 .tituloTratamento {
@@ -461,14 +461,13 @@ a {
   text-transform: uppercase;
   color: black;
   font-size: 1.2rem;
+  font-family: LeagueSpartan-Regular;
 }
 .descricao-bio {
   text-align: justify;
   color: black;
   font-size: 1rem;
   line-height: 1.5rem;
-  padding-right: 620px;
-  padding-bottom: 80px;
   font-family: LeagueSpartan-Regular;
 }
 
@@ -593,7 +592,7 @@ a {
 .accordion2{
   background-color: white;
   color: black;
-  /* width: 840px; */
+  width: 840px; 
   display: flex;
   flex-direction: column;
   /* height: 40px; */
@@ -653,9 +652,7 @@ a {
   .box-bonus {
     margin-top: 20px;
   }
-  .descricao-bio {
-    padding-right: 820px;
-  }
+
   /* .duvidas {
     margin-left: -360px;
   } */
