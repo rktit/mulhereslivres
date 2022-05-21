@@ -623,7 +623,7 @@ a {
   width: 100%;
 }
 
-.ant-collapse-content-box { background-color: #ececec }
+.ant-collapse-content-box { color: #8e8c8c }
 
 @media screen and (min-device-width: 1400px) and (max-device-width: 1820px) {
   .tituloTopo {
@@ -897,9 +897,13 @@ a {
     background: url(../assets/background/bg-bio.png) center top no-repeat;
     background-size: cover; 
   }
+  .imgBio {
+    margin-left: 50px;
+  }
   .titulo-bio{
     font-size: 3rem;
     line-height: 3.5rem;
+    opacity: 0.85;
   }
   .text-bio{
     font-size: 1.2rem;

@@ -38,11 +38,14 @@ export default function Page(props) {
             <ScrollableAnchor id={'biografia'}>
                 <div className="bg-bio">
                     <Fade>
-                        <div className="flex flex-col w-full p-5">
-                            <div className="titulo-bio pt-28">
-                                bio<br />grafia
+                        <div className="flex flex-col w-full p-6">
+                            <div className="flex relative">
+                                <div className="absolute titulo-bio pt-28">
+                                    bio<br />grafia
+                                </div>
+                                <img src={mobileBio} className="flex imgBio" />
                             </div>
-                            <div className="text-bio pt-32">
+                            <div className="text-bio">
                                 <strong> olá mulherada linda! </strong>
                             </div>
                             <div className="flex flex-initial flex-col w-full descricao-bio-mob">
