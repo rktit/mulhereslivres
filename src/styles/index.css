@@ -763,9 +763,8 @@ a {
     width: 280px;
   }
   .img-video {
-    width: 100%; 
-    padding-left: 20px;
-    padding-right: 20px; 
+    aspect-ratio: 1 / 1;
+    width: 100%;  
   }
   .topoButton {
     width: 320px;
