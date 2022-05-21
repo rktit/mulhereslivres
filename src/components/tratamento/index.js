@@ -3,8 +3,10 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 import { Fade } from 'react-reveal'
 import check from '../../assets/file/check.png'
-
 import { Etapas } from '../'
+
+import deskTratamento from '../../assets/static/deskTratamento.png'
+import mobileTratamento from '../../assets/static/Tratamento.png'
 
 export default function Page(props) {
     const btnScrollTop = useRef(null)
@@ -35,10 +37,12 @@ export default function Page(props) {
     return (
         isMobile ?
             <ScrollableAnchor id={'line'}>
-
-                <div className="bgTratamento pt-10 px-4">
+                <div className="bgTratamento pt-10 px-6">
+                <div className="flex relative">
+                        <img src={mobileTratamento} className="flex absolute imgTratamento" />
+                    </div>
                     <Fade>
-                        <div className="flex flex-col box-tratamento">
+                        <div className="flex flex-col">
                             <div className="tituloTratamento pt-4 pb-4">
                                 Para quem é este tratamento?
                             </div>
@@ -49,25 +53,25 @@ export default function Page(props) {
                                 <img src={check} className="self-center pr-3 h-3" width="25" /> Para quem não consegue<br /> ter relação sexual.
                             </div>
                             <div className="flex text-tratamento py-2">
-                                <img src={check} className="self-center pr-3 h-3" width="25" /> Se você não consegue fazer exames ginecológicos quando existe penetração.
+                                <img src={check} className="self-center pr-3 h-3" width="25" /> Se você não consegue fazer<br /> exames ginecológicos quando<br /> existe penetração.
                             </div>
                             <div className="flex text-tratamento py-2">
-                                <img src={check} className="self-center pr-3 h-3" width="25" /> Se você tem dispareunia por tensão muscular.
+                                <img src={check} className="self-center pr-3 h-3" width="25" /> Se você tem dispareunia<br /> por tensão muscular.
                             </div>
                             <div className="flex text-tratamento py-2">
-                                <img src={check} className="self-center pr-3 h-3" width="25" /> Para a mulher tem a sensação de que não cabe nada dentro do canal vaginal.
+                                <img src={check} className="self-center pr-3 h-3" width="25" /> Para a mulher tem a sensação<br /> de que não cabe nada dentro<br /> do canal vaginal.
                             </div>
                             <div className="flex text-tratamento py-2">
-                                <img src={check} className="self-center pr-3 h-3" width="25" /> Para quem não consegue colocar absorvente interno ou sente muito incômodo com ele inserido.
+                                <img src={check} className="self-center pr-3 h-3" width="25" /> Para quem não consegue colocar<br /> absorvente interno ou sente muito<br /> incômodo com ele inserido.
                             </div>
                             <div className="flex text-tratamento py-2">
-                                <img src={check} className="self-center pr-3 h-3" width="25" /> Para a mulher que tem muita dor na entrada do canal vaginal durante qualquer penetração.
+                                <img src={check} className="self-center pr-3 h-3" width="25" /> Para a mulher que tem muita dor na<br /> entrada do canal vaginal durante<br /> qualquer penetração.
                             </div>
                             <div className="flex text-tratamento py-2">
-                                <img src={check} className="self-center pr-3 h-3" width="25" /> Se as pernas se fecham sem querer durante uma tentativa de penetração.
+                                <img src={check} className="self-center pr-3 h-3" width="25" /> Se as pernas se fecham sem querer<br /> durante uma tentativa de penetração.
                             </div>
                             <div className="flex text-tratamento py-2">
-                                <img src={check} className="self-center pr-3 h-3" width="25" /> Para quem sente que existe uma parede na entrada do canal vaginal.
+                                <img src={check} className="self-center pr-3 h-3" width="25" /> Para quem sente que existe uma parede<br /> na entrada do canal vaginal.
                             </div>
                         </div>
                         <div className="info-tratamento pt-2 pb-8 pr-8">
@@ -78,10 +82,11 @@ export default function Page(props) {
                 </div>
             </ScrollableAnchor>
             :
-            <ScrollableAnchor id={'line'}>
-                <div className="bg-tratamento">
+            <ScrollableAnchor id={'line'}> 
+                <div className="bg-tratamento pt-10 px-8">
                     <Fade>
-                        <div className="flex flex-col box-tratamento">
+                    <div className="flex relative">
+                        <div className="flex flex-col pl-32">
                             <div className="tituloTratamento pt-14 pb-4">
                                 Para quem é este tratamento?
                             </div>
@@ -114,6 +119,10 @@ export default function Page(props) {
                             </div>
                             <div className="info-tratamento pt-6 pb-32">
                                 Se você ficou com qualquer dúvida, clique no botão do <strong className="whatsapp px-1"> WhatsApp </strong> ao lado e fale com nossa equipe agora mesmo.
+                            </div>
+                            </div>
+                            <div className="flex relative ml-20 mr-32">
+                                <img src={deskTratamento} className="flex imgTratamento" />
                             </div>
                         </div>
                     </Fade>

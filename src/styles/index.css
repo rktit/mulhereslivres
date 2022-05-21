@@ -250,9 +250,8 @@ a {
   background: url(../assets/background/bg-tratamento.png) center no-repeat;
   background-size: cover; 
 }
-.box-tratamento {
-  padding-right: 700px;
-  padding-left: 220px;
+.imgTratamento {
+  margin-right: 120px;
 }
 .tituloTratamento {
   font-family: LeagueSpartan-Medium;
@@ -464,7 +463,7 @@ a {
   font-family: LeagueSpartan-Regular;
 }
 .descricao-bio {
-  text-align: justify;
+  text-align: left;
   color: black;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -472,7 +471,7 @@ a {
 }
 
 .descricao-bio-mob {
-  text-align: justify;
+  text-align: left;
   color: black;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -640,10 +639,6 @@ a {
   .imgVideo {
     width: 600px;
   }
-  .box-tratamento {
-  padding-right: 780px;
-  padding-left: 220px;
-  }
   .descricao-etapas {
     margin-top: 30px;
     margin-bottom: 50px;
@@ -660,7 +655,37 @@ a {
   .box-bonus {
     margin-top: 20px;
   }
-
+  @media screen and (min-device-width: 1399px) and (max-device-width: 620px) {
+    .tituloTopo {
+      font-size: 3.5rem;
+    }
+    .topo-button { 
+      font-size: 2.25rem;
+    }
+    .button-topo {
+      width: 320px;
+      height: 70px;
+    }
+    .imgVideo {
+      width: 600px;
+    }
+    .descricao-etapas {
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+    .button-garantia{
+      margin-top: -80px;
+    }
+    .titulo-garantia {
+      margin-top: -5px;
+    }
+    .descricao-garantia {
+      margin-top: 20px;
+    }
+    .box-bonus {
+      margin-top: 20px;
+    }
+  }
   /* .duvidas {
     margin-left: -360px;
   } */
@@ -747,9 +772,8 @@ a {
     background: url(../assets/background/tratamento.png) center top no-repeat;
     background-size: cover; 
   }
-  .box-tratamento {
-    margin-right: -620px;
-    padding-left: 20px;
+  .imgTratamento {
+    margin-left: 120px;
   }
   .tituloTratamento {
     font-size: 2rem;
@@ -760,9 +784,9 @@ a {
     line-height: 1.2rem;
   }
   .info-tratamento {
-    padding-left: 30px;
     font-size: 1rem;
     line-height: 1.25rem;
+    text-align: center;
   }
   .titulo-etapas {
     font-size: 1.75rem;

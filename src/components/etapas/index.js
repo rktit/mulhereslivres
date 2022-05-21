@@ -74,7 +74,7 @@ export default function Page(props) {
             </ScrollableAnchor>
             :
             <ScrollableAnchor id={'etapas'}>
-                <div className="px-20">
+                <div className="">
                     <Fade>
                         <div className="flex flex-col">
                             <div className="titulo-etapas">Como será o tratamento?</div>
