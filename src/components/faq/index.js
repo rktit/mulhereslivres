@@ -41,7 +41,7 @@ export default function Page(props) {
         <ScrollableAnchor id={'faq'}>
             <Fade>
                 <div className='flex flex-col'>
-                    <div className='flex-1 w-full mt-20'>
+                    <div className='flex-1 w-full mt-20 px-10 md:px-0'>
                         <h2 className="duvidas">DÚVIDAS FREQUENTES</h2>
                     </div>
                     

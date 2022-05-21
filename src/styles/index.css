@@ -710,6 +710,7 @@ a {
   .bgTopo {
     background: url(../assets/background/bg-topo.png) center top no-repeat;
     background-size: cover; 
+    /* height: 100%; */
   }
   .tituloTopo {
     font-size: 1.8rem;
@@ -874,8 +875,8 @@ a {
   .descricao-bio {
     font-size: 1rem;
     line-height: 1.25rem;
-    margin-right: -570px;
-    margin-bottom: -80px; 
+    /* margin-right: 20px;
+   margin-bottom: -80px;  */
   }
   .duvidas {
     font-size: 2.25rem;

@@ -34,7 +34,7 @@ export default function Page(props) {
         <ScrollableAnchor id={'biografia'}>
             <div className="bg-bio">
             <Fade>
-            <div className="pl-14">
+            <div className="px-14">
             <div className="titulo-bio pt-28">
                 bio<br />grafia
                 </div>
