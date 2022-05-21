@@ -98,7 +98,7 @@ export default function Page(props) {
                                 </div>
                             </div>
                             <div className="flex relative ml-20 mr-32">
-                                <img src={deskBio} className="flex imgVideo" />
+                                <img src={deskBio} className="flex pt-28" width="auto" />
                             </div>
                         </div>
 
