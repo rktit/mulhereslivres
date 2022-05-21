@@ -64,7 +64,7 @@ export default function Page(props) {
       <ScrollableAnchor id={'home'}>
         <div className="bg-topo">
           <div className="flex-auto">
-            <div className="flex flex-auto justify-center py-20">
+            <div className="flex justify-center py-20">
               <img src={logo} className="flex justify-self-center justify-center" width="500" />
             </div>
             <div className="flex flex-wrap justify-center space-x-20">

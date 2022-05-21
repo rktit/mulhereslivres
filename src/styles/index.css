@@ -695,6 +695,7 @@ a {
 }
 
 @media (min-device-width: 410px) and (max-device-width: 620px) {
+  
   .accordion2{
     width: 350px;
   }

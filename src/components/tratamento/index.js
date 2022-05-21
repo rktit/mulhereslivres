@@ -122,7 +122,7 @@ export default function Page(props) {
                             </div>
                             </div>
                             <div className="flex relative ml-20 mr-32">
-                                <img src={deskTratamento} className="flex imgTratamento pt-20" width="auto"/>
+                                <img src={deskTratamento} className="flex imgTratamento py-20" width="auto"/>
                             </div>
                         </div>
                     </Fade>
