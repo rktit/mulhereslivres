@@ -159,7 +159,8 @@ a {
   height: 100vh;
 }
 .imgVideo {
-  width: 500px;
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }
 .tituloTopo {
   font-family: agright--regular;
@@ -637,7 +638,8 @@ a {
     height: 70px;
   }
   .imgVideo {
-    width: 600px;
+    aspect-ratio: 16 / 9;
+    width: 100%;  
   }
   .descricao-etapas {
     margin-top: 30px;
@@ -667,7 +669,8 @@ a {
       height: 70px;
     }
     .imgVideo {
-      width: 600px;
+      aspect-ratio: 16 / 9;
+      width: 100%;    
     }
     .descricao-etapas {
       margin-top: 30px;
@@ -760,7 +763,8 @@ a {
     width: 280px;
   }
   .img-video {
-    width: 320px;
+    aspect-ratio: 16 / 9;
+    width: 100%;  
   }
   .topoButton {
     width: 320px;
