@@ -43,11 +43,11 @@ export default function Page(props) {
   return (
     isMobile ?
       <div className="flex-auto bgTopo">
-        <div className="flex-auto flex-col">
+        <div className="flex-auto flex-col pt-4">
           <div className="flex flex-auto justify-center py-4">
             <img src={logo} className="imageTopo flex items-center py-4" />
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center py-6">
             <YouTube className="img-video" videoId={"LSNt6WWPm5c"} opts={opts}/>
           </div> 
         </div>
