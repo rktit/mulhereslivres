@@ -471,6 +471,14 @@ a {
   font-family: LeagueSpartan-Regular;
 }
 
+.descricao-bio-mob {
+  text-align: justify;
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: LeagueSpartan-Regular;
+}
+
 .duvidas {
   font-family: agright--regular;
   text-transform: uppercase;
