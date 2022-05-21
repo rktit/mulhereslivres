@@ -121,8 +121,8 @@ export default function Page(props) {
                                 Se você ficou com qualquer dúvida, clique no botão do <strong className="whatsapp px-1"> WhatsApp </strong> ao lado e fale com nossa equipe agora mesmo.
                             </div>
                             </div>
-                            <div className="flex relative ml-20 mr-32">
-                                <img src={deskTratamento} className="flex imgTratamento py-20" width="auto"/>
+                            <div className="flex relative mx-20">
+                                <img src={deskTratamento} className="flex imgTratamento py-20 mb-32" width="auto"/>
                             </div>
                         </div>
                     </Fade>
