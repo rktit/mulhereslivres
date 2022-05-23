@@ -22,14 +22,6 @@ export default function Page(props) {
         window.addEventListener('scroll', handleScroll)
     }, [])
 
-    const handleScroll = (event) => {
-        if (window.pageYOffset >= 700 && !showBtn) {
-            setShowBtn(true)
-        } else {
-            setShowBtn(false)
-        }
-    }
-
     const [isMobile, setMobile] = useState(false)
 
     useEffect(() => {
@@ -39,6 +31,14 @@ export default function Page(props) {
             setMobile(true)
         }
     }, [window.innerWidth])
+
+    const handleScroll = (event) => {
+        if (window.pageYOffset >= 700 && !showBtn) {
+            setShowBtn(true)
+        } else {
+            setShowBtn(false)
+        }
+    }
 
     return (
         isMobile ?
@@ -74,9 +74,9 @@ export default function Page(props) {
             </ScrollableAnchor>
             :
             <ScrollableAnchor id={'etapas'}>
-                <div className="">
+                <div className="flex w-full flex-col">
                     <Fade>
-                        <div className="flex flex-col">
+                        <div className="flex flex-col w-full">
                             <div className="titulo-etapas">Como será o tratamento?</div>
                             <div className="subtitulo-etapas pb-10 pt-2">Você está a <strong>4 etapas</strong> da cura!</div>
                         </div>
@@ -94,7 +94,8 @@ export default function Page(props) {
                                 <img src={etapa4} className="flex" width="250" />
                             </div>
                         </div>
-                        <div className="descricao-etapas pt-10 px-80">E quando você concluir a última etapa você finalmente estará livre do Vaginismo
+                        <div className="flex w-full descricao-etapas text-justify justify-center">
+                            E quando você concluir a última etapa você finalmente estará livre do Vaginismo
                         </div>
                         <div className="relative flex botaoEtapas justify-center pt-6">
                             <img src={botao} className="flex etapasButton" />

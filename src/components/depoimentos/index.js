@@ -81,7 +81,7 @@ export default function Page(props) {
 
       :
       <ScrollableAnchor id={'depoimentos'}>
-        <div className="bg-white">
+        <div className="flex flex-col w-full bg-white">
           <div className="flex flex-col">
             <div className="titulo-dep pt-20" >
               Elas já encontraram a <br />liberdade do vaginismo!
@@ -94,7 +94,7 @@ export default function Page(props) {
             </div>
           </div>
           <div className="flex justify-center align-center">
-            <div className="w-10/12 justify-center py-10">
+            <div className="w-full justify-center py-10">
               <div className="box-planta flex flex-row w-auto">
                 <div className="d-flex flex-col">
                   <div className='col-12' style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>

@@ -1,13 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { RightCircleFilled} from '@ant-design/icons';
-
 import { Fade } from 'react-reveal'
 import logo from '../../assets/logo/Logo.png';
 import 'antd/dist/antd.css';
 import { Collapse, Space } from 'antd';
 import styled from 'styled-components';
 const { Panel } = Collapse;
+
 
 export default function Page(props) {
     const btnScrollTop = useRef(null)
@@ -40,12 +40,12 @@ export default function Page(props) {
     return (
         <ScrollableAnchor id={'faq'}>
             <Fade>
-                <div className='flex flex-col'>
-                    <div className='flex-1 w-full md:mt-20 mt-4'>
+                <div className='flex flex-col w-full'>
+                    <div className='flex-1 w-full mt-4'>
                         <h2 className="duvidas">DÚVIDAS FREQUENTES</h2>
                     </div>
-                    <div className="flex w-full items-center justify-center pb-10">
-                        <Space className='flex md:w-1/2 w-full items-center' direction="vertical">
+                    <div className="flex w-full flex-col items-center justify-center w-full boxFaq pb-10 pr-5 sm:pl-5">
+                        {/* <Space className='flex md:w-1/2 w-full items-center' direction="vertical"> */}
                             <Collapse 
                                 className="accordion2"
                                 bordered={false}
@@ -58,6 +58,7 @@ export default function Page(props) {
                             </Collapse>
                             <Collapse 
                                 className="accordion2"
+                                style={{marginTop:'10px'}}
                                 bordered={false}
                                 accordion expandIconPosition={'right'}
                                 expandIcon={({ isActive }) => <RightCircleFilled style={{color:'#ad5677', fontSize: '20px'}} rotate={isActive ? 90 : 0} />}
@@ -68,6 +69,7 @@ export default function Page(props) {
                             </Collapse>
                             <Collapse 
                                 className="accordion2"
+                                style={{marginTop:'10px'}}
                                 bordered={false}
                                 accordion expandIconPosition={'right'}
                                 expandIcon={({ isActive }) => <RightCircleFilled style={{color:'#ad5677', fontSize: '20px'}} rotate={isActive ? 90 : 0} />}
@@ -78,6 +80,7 @@ export default function Page(props) {
                             </Collapse>
                             <Collapse 
                                 className="accordion2"
+                                style={{marginTop:'10px'}}
                                 bordered={false}
                                 accordion expandIconPosition={'right'}
                                 expandIcon={({ isActive }) => <RightCircleFilled style={{color:'#ad5677', fontSize: '20px'}} rotate={isActive ? 90 : 0} />}
@@ -88,6 +91,7 @@ export default function Page(props) {
                             </Collapse>
                             <Collapse 
                                 className="accordion2"
+                                style={{marginTop:'10px'}}
                                 bordered={false}
                                 accordion expandIconPosition={'right'}
                                 expandIcon={({ isActive }) => <RightCircleFilled style={{color:'#ad5677', fontSize: '20px'}} rotate={isActive ? 90 : 0} />}
@@ -98,6 +102,7 @@ export default function Page(props) {
                             </Collapse>
                             <Collapse 
                                 className="accordion2"
+                                style={{marginTop:'10px'}}
                                 bordered={false}
                                 accordion expandIconPosition={'right'}
                                 expandIcon={({ isActive }) => <RightCircleFilled style={{color:'#ad5677', fontSize: '20px'}} rotate={isActive ? 90 : 0} />}
@@ -108,6 +113,7 @@ export default function Page(props) {
                             </Collapse>
                             <Collapse 
                                 className="accordion2"
+                                style={{marginTop:'10px'}}
                                 bordered={false}
                                 accordion expandIconPosition={'right'}
                                 expandIcon={({ isActive }) => <RightCircleFilled style={{color:'#ad5677', fontSize: '20px'}} rotate={isActive ? 90 : 0} />}
@@ -118,6 +124,7 @@ export default function Page(props) {
                             </Collapse>
                             <Collapse 
                                 className="accordion2"
+                                style={{marginTop:'10px'}}
                                 bordered={false}
                                 accordion expandIconPosition={'right'}
                                 expandIcon={({ isActive }) => <RightCircleFilled style={{color:'#ad5677', fontSize: '20px'}} rotate={isActive ? 90 : 0} />}
@@ -128,6 +135,7 @@ export default function Page(props) {
                             </Collapse>
                             <Collapse 
                                 className="accordion2"
+                                style={{marginTop:'10px'}}
                                 bordered={false}
                                 accordion expandIconPosition={'right'}
                                 expandIcon={({ isActive }) => <RightCircleFilled style={{color:'#ad5677', fontSize: '20px'}} rotate={isActive ? 90 : 0} />}
@@ -138,6 +146,7 @@ export default function Page(props) {
                             </Collapse>
                             <Collapse 
                                 className="accordion2"
+                                style={{marginTop:'10px'}}
                                 bordered={false}
                                 accordion expandIconPosition={'right'}
                                 expandIcon={({ isActive }) => <RightCircleFilled style={{color:'#ad5677', fontSize: '20px'}} rotate={isActive ? 90 : 0} />}
@@ -146,7 +155,7 @@ export default function Page(props) {
                                     <p>Seu acesso terá duração de 1 ano.</p>
                                 </Panel>
                             </Collapse>
-                        </Space>
+                        {/* </Space> */}
                     </div>
                 </div>
                 

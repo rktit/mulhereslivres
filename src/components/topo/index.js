@@ -6,6 +6,7 @@ import botao from '../../assets/cta/botao-reservar.png'
 import logo from '../../assets/logo/logo-azul.png'
 import video from '../../assets/file/video-topo.png'
 // import {ModalContext} from '../../context/index';
+import background from '../../assets/background/bg-topo.png';
 
 export default function Page(props) {
   const btnScrollTop = useRef(null)
@@ -16,6 +17,16 @@ export default function Page(props) {
     window.addEventListener('scroll', handleScroll)
   }, [])
 
+  const [isMobile, setMobile] = useState(false)
+
+  useEffect(() => {
+      if (window.innerWidth >= 992) {
+          setMobile(false)
+      } else {
+          setMobile(true)
+      }
+  }, [window.innerWidth])
+  
   const handleScroll = (event) => {
     if (window.pageYOffset >= 700 && !showBtn) {
       setShowBtn(true)
@@ -24,15 +35,6 @@ export default function Page(props) {
     }
   }
 
-  const [isMobile, setMobile] = useState(false)
-
-  useEffect(() => {
-    if (window.innerWidth >= 992) {
-      setMobile(false)
-    } else {
-      setMobile(true)
-    }
-  }, [window.innerWidth])
   const opts = {
     height: "320",
     width: '470',
@@ -62,7 +64,7 @@ export default function Page(props) {
       </div>
       :
       <ScrollableAnchor id={'home'}>
-        <div className="bg-topo">
+        <div className="flex w-full bg-topo">
           <div className="flex-auto">
             <div className="flex justify-center py-20">
               <img src={logo} className="flex justify-self-center justify-center" width="auto" />
@@ -73,13 +75,13 @@ export default function Page(props) {
                 </div>
                 <div className="descricaoTopo pt-4">Você merece uma vida sem medo e<br /> sem dor durante a penetração.
                 </div>
-                <div className="relative flex justify-center pt-10">
+                <div className="relative flex justify-center pt-10 pb-10">
                   <img src={botao} className="flex button-topo" />
                   <button type="submit" className="absolute topo-button" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                 </div>
               </div>
               <div className="flex justify-center">
-            <YouTube className="imgVideo" videoId={"LSNt6WWPm5c"} opts={opts}/>
+            <YouTube className="imgVideo pb-10" videoId={"LSNt6WWPm5c"} opts={opts}/>
           </div> 
             </div>
           </div>

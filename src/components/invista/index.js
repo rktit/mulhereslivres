@@ -96,27 +96,39 @@ export default function Page(props) {
             </ScrollableAnchor>
             :
             <ScrollableAnchor id={'invista'}>
-                <div className="bg-invista py-10">
+                <div className="flex w-full flex-col bg-invista py-10">
                     <Fade>
-                        <div className="titulo-invista pt-14 pb-4">
+                        <div className="flex w-full justify-center titulo-invista pt-14 pb-4">
                             invista na sua liberdade!
                         </div>
                         <div className="flex flex-wrap space-x-28 justify-center">
-                            <div className="pt-12">
-                                <div className="flex invista py-2">
+                            <div className="flex flex-col w-full pt-12">
+                                <div className="flex w-full justify-center invista py-2">
                                     Tratamento de Vaginismo
                                 </div>
-                                <div className="flex Tratamento py-2">
-                                    <img src={mais} className="self-center pr-3 h-8" width="30" />
-                                    Material didático Completo<br /> para as 4 etapas do Tratamento
+                                <div className="flex flex-row w-full justify-center Tratamento py-2">
+                                    <div className='flex flex-row justify-end w-1/12'>
+                                        <img src={mais} className="self-center pr-3 h-8" width="auto" />
+                                    </div>
+                                    <div className='flex flex-row w-2/12 justify-start'>
+                                        Material didático Completo<br /> para as 4 etapas do Tratamento
+                                    </div>
                                 </div>
-                                <div className="flex Tratamento py-2">
-                                    <img src={mais} className="self-center pr-3 h-8" width="30" />
-                                    Suporte pelo WhatsApp
+                                <div className="flex flex-row w-full justify-center Tratamento py-2">
+                                    <div className='flex flex-row justify-end w-1/12'>
+                                        <img src={mais} className="self-center pr-3 h-8" width="auto" />
+                                    </div>
+                                    <div className='flex flex-row w-2/12 justify-start'>
+                                        Suporte pelo WhatsApp
+                                    </div>
                                 </div>
-                                <div className="flex Tratamento py-2">
-                                    <img src={mais} className="self-center pr-3 h-8" width="30" />
-                                    Encontros mensais online<br /> com a Dra. Amanda Almeida.
+                                <div className="flex flex-row w-full justify-center Tratamento py-2">
+                                    <div className='flex flex-row justify-end w-1/12'>
+                                        <img src={mais} className="self-center pr-3 h-8" width="auto" />
+                                    </div>
+                                    <div className='flex flex-row w-2/12 justify-start'>
+                                        Encontros mensais online<br /> com a Dra. Amanda Almeida.
+                                    </div>
                                 </div>
                             </div>
 

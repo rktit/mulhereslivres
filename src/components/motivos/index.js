@@ -69,24 +69,30 @@ export default function Page(props) {
             </ScrollableAnchor>
             :
             <ScrollableAnchor id={'motivos'}>
-                <div className="bg-motivos">
+                <div className="flex flex-col w-full bg-motivos">
                     <Fade>
                         <div className="flex flex-col items-center py-10">
                             <div className="titulo-motivos">03 motivos</div>
                             <div className="subtitulo-motivos">para você fazer o tratamento</div>
                         </div>
-                        <div className="flex flex-wrap items-center justify-center pb-20">
-                            <div className="relative items-center px-16">
-                                <img src={motivo1} className="flex w-auto pl-10" />
-                                <div className="absolute text-motivos">Ter uma vida sexual sem dor e cheia de prazer.</div>
+                        <div className="flex flex-wrap w-full items-start justify-around pb-20">
+                            <div className="flex flex-col md:w-1/4 w-2/4 items-center">
+                                <div className='justify-center'>
+                                    <img src={motivo1} className="flex w-auto"/>
+                                </div>
+                                <div className="text-motivos">Ter uma vida sexual sem dor e cheia de prazer.</div>
                             </div>
-                            <div className="relative items-center px-16">
-                                <img src={motivo2} className="flex w-auto pl-16" />
-                                <div className="absolute text-motivos">Poder fazer exames ginecológicos que são essenciais para a vida da mulher.</div>
+                            <div className="flex flex-col md:w-1/4 w-2/4 items-center">
+                                <div className='justify-center'>
+                                    <img src={motivo2} className="flex w-auto" />
+                                </div>
+                                <div className="text-motivos">Poder fazer exames ginecológicos que são essenciais para a vida da mulher.</div>
                             </div>
-                            <div className="relative items-center px-16">
-                                <img src={motivo3} className="flex w-auto pl-10" />
-                                <div className="absolute text-motivos">Ter autoconhecimento íntimo, que vai te trazer mais confiança e saúde.</div>
+                            <div className="flex flex-col md:w-1/4 w-2/4 items-center">
+                                <div className='justify-center'>
+                                    <img src={motivo3} className="flex w-auto" />
+                                </div>
+                                <div className="text-motivos">Ter autoconhecimento íntimo, que vai te trazer mais confiança e saúde.</div>
                             </div>
                         </div>
 

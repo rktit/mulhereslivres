@@ -7,6 +7,7 @@ import { Etapas } from '../'
 
 import deskTratamento from '../../assets/static/deskTratamento.png'
 import mobileTratamento from '../../assets/static/Tratamento.png'
+import background from '../../assets/background/bg-tratamento.png';
 
 export default function Page(props) {
     const btnScrollTop = useRef(null)
@@ -14,6 +15,7 @@ export default function Page(props) {
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
+        console.log('MOBILE ::: ', isMobile);
     }, [])
 
     const handleScroll = (event) => {
@@ -37,13 +39,13 @@ export default function Page(props) {
     return (
         isMobile ?
             <ScrollableAnchor id={'line'}>
-                <div className="bgTratamento pt-10 px-6">
-                <div className="flex relative">
+                <div className="flex flex-col w-full bgTratamento pt-10 px-6">
+                    <div className="flex relative">
                         <img src={mobileTratamento} className="flex absolute imgTratamento" />
                     </div>
                     <Fade>
                         <div className="flex flex-col">
-                            <div className="tituloTratamento pt-4 pb-4">
+                            <div className="flex flex-col w-full tituloTratamento pt-4 pb-4">
                                 Para quem é este tratamento?
                             </div>
                             <div className="flex text-tratamento py-2">
@@ -83,7 +85,7 @@ export default function Page(props) {
             </ScrollableAnchor>
             :
             <ScrollableAnchor id={'line'}> 
-                <div className="bg-tratamento pt-10 px-8">
+                <div className="flex w-full flex-col pt-10 px-8 bg-tratamento">
                     <Fade>
                     <div className="flex relative">
                         <div className="flex flex-col pl-32">
@@ -120,11 +122,11 @@ export default function Page(props) {
                             <div className="info-tratamento pt-6 pb-32">
                                 Se você ficou com qualquer dúvida, clique no botão do <strong className="whatsapp px-1"> WhatsApp </strong> ao lado e fale com nossa equipe agora mesmo.
                             </div>
-                            </div>
-                            <div className="flex relative mx-20">
-                                <img src={deskTratamento} className="flex imgTratamento py-20 mb-32" width="auto"/>
-                            </div>
                         </div>
+                        <div className="flex relative self-start">
+                            <img src={deskTratamento} className="flex" width="auto"/>
+                        </div>
+                    </div>
                     </Fade>
                     <Etapas />
                 </div>

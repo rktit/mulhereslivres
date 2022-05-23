@@ -16,13 +16,6 @@ export default function Page(props) {
         window.addEventListener('scroll', handleScroll)
     }, [])
 
-    const handleScroll = (event) => {
-        if (window.pageYOffset >= 700 && !showBtn) {
-            setShowBtn(true)
-        } else {
-            setShowBtn(false)
-        }
-    }
     const [isMobile, setMobile] = useState(false)
 
     useEffect(() => {
@@ -32,6 +25,14 @@ export default function Page(props) {
             setMobile(true)
         }
     }, [window.innerWidth])
+
+    const handleScroll = (event) => {
+        if (window.pageYOffset >= 700 && !showBtn) {
+            setShowBtn(true)
+        } else {
+            setShowBtn(false)
+        }
+    }
 
     return (
         isMobile ?
@@ -73,7 +74,7 @@ export default function Page(props) {
                     </div>
                     <Fade>
                         <div className="flex relative">
-                            <div className="flex flex-col w-full pl-32">
+                            <div className="flex flex-col w-full">
                                 <div className="flex-initial pt-28 titulo-bio">
                                     biografia
                                 </div>
@@ -97,7 +98,7 @@ export default function Page(props) {
                                     essa disfunção, trazendo de volta a felicidade para a vida íntima de cada uma delas.
                                 </div>
                             </div>
-                            <div className="flex relative ml-20 mr-32">
+                            <div className="flex relative">
                                 <img src={deskBio} className="flex pt-28" width="auto" />
                             </div>
                         </div>
