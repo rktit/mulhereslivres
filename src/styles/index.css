@@ -897,6 +897,7 @@ a {
   }
   .text-motivos {
     font-size: 1.2rem;
+    text-align: center;
   }
   .motivosButton {
     width: 260px;

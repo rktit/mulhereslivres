@@ -47,7 +47,7 @@ export default function Page(props) {
                         </div>
                         <div className="flex flex-col justify-center px-20">
                             <div className="flex flex-col items-center justify-self-center">
-                                <img src={motivo1} className="flex w-auto pt-10" />
+                                <img src={motivo1} className="flex w-48 pt-10" />
                                 <div className="flex text-motivos">Ter uma vida sexual sem dor e cheia de prazer.</div>
                             </div>
                             <div className="flex flex-col items-center">
@@ -76,7 +76,7 @@ export default function Page(props) {
                             <div className="subtitulo-motivos">para você fazer o tratamento</div>
                         </div>
                         <div className="flex flex-wrap w-full items-start justify-around pb-20">
-                            <div className="flex flex-col md:w-1/4 w-2/4 items-center">
+                            <div className="flex flex-col md:w-1/4 w-2/4 items-center pt-4">
                                 <div className='justify-center'>
                                     <img src={motivo1} className="flex w-auto"/>
                                 </div>
