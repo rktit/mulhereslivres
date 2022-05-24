@@ -101,38 +101,38 @@ export default function Page(props) {
                         <div className="flex w-full justify-center titulo-invista pt-14 pb-4">
                             invista na sua liberdade!
                         </div>
-                        <div className="flex flex-wrap space-x-28 justify-center">
-                            <div className="flex flex-col w-full pt-12">
+                        <div className="flex flex-wrap justify-center">
+                            <div className="flex flex-col w-6/10 pt-12 pl-10">
                                 <div className="flex w-full justify-center invista py-2">
                                     Tratamento de Vaginismo
                                 </div>
                                 <div className="flex flex-row w-full justify-center Tratamento py-2">
-                                    <div className='flex flex-row justify-end w-1/12'>
+                                    <div className='flex flex-row justify-end'>
                                         <img src={mais} className="self-center pr-3 h-8" width="auto" />
                                     </div>
-                                    <div className='flex flex-row w-2/12 justify-start'>
+                                    <div className='flex flex-row w-full justify-start'>
                                         Material didático Completo<br /> para as 4 etapas do Tratamento
                                     </div>
                                 </div>
                                 <div className="flex flex-row w-full justify-center Tratamento py-2">
-                                    <div className='flex flex-row justify-end w-1/12'>
+                                    <div className='flex flex-row justify-end'>
                                         <img src={mais} className="self-center pr-3 h-8" width="auto" />
                                     </div>
-                                    <div className='flex flex-row w-2/12 justify-start'>
+                                    <div className='flex flex-row w-full justify-start'>
                                         Suporte pelo WhatsApp
                                     </div>
                                 </div>
                                 <div className="flex flex-row w-full justify-center Tratamento py-2">
-                                    <div className='flex flex-row justify-end w-1/12'>
+                                    <div className='flex flex-row justify-end'>
                                         <img src={mais} className="self-center pr-3 h-8" width="auto" />
                                     </div>
-                                    <div className='flex flex-row w-2/12 justify-start'>
+                                    <div className='flex flex-row w-full justify-start'>
                                         Encontros mensais online<br /> com a Dra. Amanda Almeida.
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="flex relative box-valor mb-20">
+                            <div className="flex relative box-valor ml-28 mb-20">
                                 <img src={valor} className="flex absolute pt-4 pr-2" />
                                 <div className="flex absolute botao-invista  justify-center">
                                     <img src={botao} className="flex invistaButton" />
@@ -142,7 +142,7 @@ export default function Page(props) {
                         </div>
 
                         <div className="flex flex-wrap justify-center">
-                            <div className="text-center pr-10">
+                            <div className="text-center pr-20">
                                 <div className="relative flex justify-center pt-14">
                                     <img src={garantia} className="flex button-garantia" />
                                     <div className="absolute titulo-garantia">Garantia de 7 Dias</div>

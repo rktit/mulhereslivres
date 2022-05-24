@@ -94,10 +94,10 @@ export default function Page(props) {
                                 <img src={etapa4} className="flex" width="250" />
                             </div>
                         </div>
-                        <div className="flex w-full descricao-etapas text-justify justify-center">
+                        <div className="flex w-full descricao-etapas text-justify justify-center py-14">
                             E quando você concluir a última etapa você finalmente estará livre do Vaginismo
                         </div>
-                        <div className="relative flex botaoEtapas justify-center pt-6">
+                        <div className="relative flex botaoEtapas justify-center">
                             <img src={botao} className="flex etapasButton" />
                             <button type="submit" className="absolute buttonEtapas" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                         </div>

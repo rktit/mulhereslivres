@@ -436,7 +436,7 @@ a {
 .text-motivos {
   font-size: 1.2rem;
   color: #d75f5f;
-  text-align: justify;
+  text-align: center;
   line-height: 1.5rem;
   font-family: LeagueSpartan-SemiBold;
 }
@@ -665,6 +665,7 @@ a {
   .box-bonus {
     margin-top: 20px;
   }
+  
   @media screen and (min-device-width: 1399px) and (max-device-width: 620px) {
     .tituloTopo {
       font-size: 3.5rem;
@@ -700,9 +701,7 @@ a {
   /* .duvidas {
     margin-left: -360px;
   } */
-  .accordion2 {
-    width: 900px;
-  }
+
 }
 
 @media (min-device-width: 410px) and (max-device-width: 620px) {

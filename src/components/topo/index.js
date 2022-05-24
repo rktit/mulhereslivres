@@ -34,7 +34,7 @@ export default function Page(props) {
       setShowBtn(false)
     }
   }
-
+ 
   const opts = {
     height: "320",
     width: '470',
@@ -64,10 +64,10 @@ export default function Page(props) {
       </div>
       :
       <ScrollableAnchor id={'home'}>
-        <div className="flex w-full bg-topo">
-          <div className="flex-auto">
+      <div className="flex w-full bg-topo">
+        <div className="flex-auto">
             <div className="flex justify-center py-20">
-              <img src={logo} className="flex justify-self-center justify-center" width="auto" />
+              <img src={logo} className="flex justify-self-center justify-center" width="auto-" />
             </div>
             <div className="flex flex-wrap justify-center space-x-20">
               <div className="flex flex-col">
@@ -81,7 +81,7 @@ export default function Page(props) {
                 </div>
               </div>
               <div className="flex justify-center">
-            <YouTube className="imgVideo pb-10" videoId={"LSNt6WWPm5c"} opts={opts}/>
+              <YouTube className="imgVideo pb-10" videoId={"LSNt6WWPm5c"} opts={opts}/>
           </div> 
             </div>
           </div>

@@ -99,7 +99,7 @@ export default function Page(props) {
                                 </div>
                             </div>
                             <div className="flex relative">
-                                <img src={deskBio} className="flex pt-28" width="auto" />
+                                <img src={deskBio} className="flex flex-auto pr-20 py-10" width="auto" />
                             </div>
                         </div>
 
