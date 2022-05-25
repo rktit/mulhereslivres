@@ -345,9 +345,8 @@ a {
   height: 280px;
 }
 .botao-invista {
-  align-self: flex-end;
   padding-left: 80px;
-  margin-top: 20px;
+  margin-top: 360px;
 }
 
 .invistaButton {
@@ -376,28 +375,6 @@ a {
   font-size: 1rem;
   color: white;
   line-height: 1.2rem;
-}
-.box-bonus {
-  border-radius: 1rem;
-  border-width: 2px;
-  border-color: rgb(244 114 182);
-  border-style: solid;
-  width: 360px;
-  height: 155px;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  margin-top: -2px;
-}
-.titulo-bonus {    
-  color: #ad5677;
-  font-family: agright--regular;
-  text-transform: uppercase;
-  font-size: 2.25rem;
-}
-.descricao-bonus{
-  color: #ad5677;  
-  font-size: 1rem;
-  line-height: 1.2rem;
-  font-family: LeagueSpartan-SemiBold;
 }
 .titulo-dep {
   font-family: agright--regular;
@@ -662,9 +639,6 @@ a {
   .descricao-garantia {
     margin-top: 20px;
   }
-  .box-bonus {
-    margin-top: 20px;
-  }
   
   @media screen and (min-device-width: 1399px) and (max-device-width: 620px) {
     .tituloTopo {
@@ -694,9 +668,6 @@ a {
     .descricao-garantia {
       margin-top: 20px;
     }
-    .box-bonus {
-      margin-top: 20px;
-    }
   }
   /* .duvidas {
     margin-left: -360px;
@@ -710,13 +681,15 @@ a {
     width: 350px;
   }
   .box-valor {
+    width: 380px;
     height: 280px;
     margin-top: -80px;
+    margin-left: 10px;
   }
   .botao-invista {
     align-self: flex-end;
-    margin-left: -15px;
-    margin-bottom: 30px;
+    margin-left: -25px;
+    margin-bottom: 5px;
   }
 }
 
@@ -725,13 +698,15 @@ a {
     width: 350px;
   }
   .box-valor {
+    width: 380px;
     height: 280px;
     margin-top: -90px;
+    margin-left: 0px;
   }
   .botao-invista {
     align-self: flex-end;
     margin-left: -30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-device-width: 280px) and (max-device-width: 380px) {
@@ -739,13 +714,15 @@ a {
     width: 300px;
   }
   .box-valor {
+    width: 360px;
     height: 280px;
     margin-top: -80px;
+    margin-left: -8px;
   }
   .botao-invista {
     align-self: flex-end;
-    margin-left: -40px;
-    margin-bottom: 30px;
+    margin-left: -35px;
+    margin-bottom: 10px;
   }
 
 }
@@ -843,13 +820,7 @@ a {
   .Tratamento {
     font-size: 1rem;
   }
-  .box-bonus {
-    width: 320px;
-    height: 155px;
-  }
-  .descricao-bonus {
-    font-size: 1.2rem;  
-  }
+
   .button-garantia{
     width: 320px;
     height: 200px;
