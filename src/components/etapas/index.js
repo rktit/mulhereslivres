@@ -50,20 +50,20 @@ export default function Page(props) {
                             <div className="subtitulo-etapas pb-8 pt-2">Você está a <strong>4 etapas</strong> da cura!</div>
                         </div>
                         <div className="flex flex-wrap justify-center items-center">
-                            <div className="flex imgEtapas py-4 pr-2">
+                            <div className="flex img-etapas py-4 pr-2">
                                 <img src={etapa1mobile} className="flex w-auto"  />
                             </div>
-                            <div className="flex imgEtapas py-4 pl-6">
+                            <div className="flex img-etapas py-4 pl-6">
                                 <img src={etapa2mobile} className="flex w-auto"  />
                             </div>
-                            <div className="flex imgEtapas py-4 pr-2">
+                            <div className="flex img-etapas py-4 pr-2">
                                 <img src={etapa3mobile} className="flex w-auto"  />
                             </div>
-                            <div className="flex imgEtapas py-4 pl-10">
+                            <div className="flex img-etapas py-4 pl-10">
                                 <img src={etapa4mobile} className="flex w-auto"  />
                             </div>
                         </div>
-                        <div className="descricao-etapas pt-10 px-4">E quando você concluir a última etapa você finalmente estará livre do Vaginismo
+                        <div className="descricao-etapas leading-7 font-medium pt-10 px-4">E quando você concluir a última etapa você finalmente estará livre do Vaginismo
                         </div>
                         <div className="flex relative botaoEtapas justify-center pt-6">
                             <img src={botao} className="flex etapasButton" />
@@ -94,7 +94,7 @@ export default function Page(props) {
                                 <img src={etapa4} className="flex" width="250" />
                             </div>
                         </div>
-                        <div className="flex w-full descricao-etapas text-justify justify-center py-14">
+                        <div className="flex w-full descricao-etapas text-justify justify-center pt-20 pb-12 font-regular">
                             E quando você concluir a última etapa você finalmente estará livre do Vaginismo
                         </div>
                         <div className="relative flex botaoEtapas justify-center">

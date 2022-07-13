@@ -58,23 +58,22 @@ export default function Page(props) {
     isMobile ?
       <div className="bg-white">
         <div className="flex-auto flex-col pt-10" >
-          <div className="titulo-dep" >
+          <div className="titulo-dep font-regular" >
             Elas já encontraram a<br /> liberdade do vaginismo!<br />
           </div>
-          <div className="subtitulo-dep pb-5">
-            <br />
+          <div className="subtitulo-dep pb-5 font-medium">
             Já são mais de 500 mulheres curadas.<br />
           </div>
         </div>
         <div className="flex justify-center">
-          <YouTube className="video-dep pt-4" videoId={"VFWzueRlKXM"} opts={opts} />
+          <YouTube className="video-dep pt-4 px-48" frameborder="0" videoId={"VFWzueRlKXM"} opts={opts} />
         </div>
         <div className="flex pl-3 items-center">
           <div className="flex flex-wrap py-6 justify-center self-center">
-            <img src={depoimento4} className="img-dep" />
-            <img src={depoimento3} className="img1dep" />
-            <img src={depoimento2} className="img-dep" />
-            <img src={depoimento1} className="img2dep" />
+            <img src={depoimento4} className="w-48 h-full" />
+            <img src={depoimento3} className="w-48 h-full" />
+            <img src={depoimento2} className="w-48 h-full" />
+            <img src={depoimento1} className="w-48 h-full -mt-16" />
           </div>
         </div>
       </div>
@@ -83,14 +82,14 @@ export default function Page(props) {
       <ScrollableAnchor id={'depoimentos'}>
         <div className="flex flex-col w-full bg-white">
           <div className="flex flex-col">
-            <div className="titulo-dep pt-20" >
+            <div className="titulo-dep pt-20 font-big" >
               Elas já encontraram a <br />liberdade do vaginismo!
             </div>
-            <div className="subtitulo-dep pt-4">
+            <div className="subtitulo-dep pt-4 font-regular">
               Já são mais de 500 mulheres curadas.<br />
             </div>
             <div className="flex justify-center">
-              <YouTube className="video-dep pt-4" videoId={"VFWzueRlKXM"} opts={opts} />
+              <YouTube className="video-dep pt-4" frameborder="0" videoId={"VFWzueRlKXM"} opts={opts} />
             </div>
           </div>
           <div className="flex justify-center align-center">

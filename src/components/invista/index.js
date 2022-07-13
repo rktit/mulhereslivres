@@ -41,7 +41,7 @@ export default function Page(props) {
         isMobile ?
             <ScrollableAnchor id={'invista'}>
 
-                <div className="bgInvista pt-10 px-4">
+                <div className="bg-invista pt-10 px-4">
                     <Fade>
                         <div className="flex flex-col justify-center">
                             <div className="titulo-invista pt-14 pb-4">
@@ -61,22 +61,22 @@ export default function Page(props) {
                                         <img src={mais} className="self-center pr-3 h-7" width="30" />
                                         Suporte pelo WhatsApp
                                     </div>
-                                    <div className="flex Tratamento py-2 mb-10">
+                                    <div className="flex Tratamento py-2">
                                         <img src={mais} className="self-center pr-3 h-7" width="30" />
                                         Encontros mensais online<br /> com a Dra. Amanda Almeida.
                                     </div>
                                 </div>
                             </div>
-                            
-                            <div className="flex relative box-valor">
-                            <img src={valorMobile} className="flex absolute pt-4" />
-                                <div className="flex absolute botao-invista justify-center">
-                                    <img src={botao} className="flex invistaButton" />
-                                    <button type="submit" className="absolute buttonInvista" onClick={() => { window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre"; }}>Quero ser livre</button>
-                                </div>
+
+                            <div className="flex relative box-valor self-center">
+                                <img src={valorMobile} className="flex absolute self-center pl-6" />
+                            </div>
+                            <div className="flex relative botao-invista justify-center -mt-20">
+                                <img src={botao} className="flex invistaButton" />
+                                <button type="submit" className="absolute buttonInvista" onClick={() => { window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre"; }}>Quero ser livre</button>
                             </div>
 
-                            <div className="relative flex justify-center text-center pb-14 pt-20">
+                            <div className="relative flex justify-center text-center pb-14 pt-40">
                                 <img src={garantia} className="flex button-garantia" />
                                 <div className="absolute titulo-garantia">Garantia de 7 Dias</div>
                                 <div className="absolute descricao-garantia"><br />
@@ -91,12 +91,12 @@ export default function Page(props) {
             </ScrollableAnchor>
             :
             <ScrollableAnchor id={'invista'}>
-                <div className="flex w-full flex-col bg-invista py-10">
+                <div className="flex w-full flex-col bg-invista py-20">
                     <Fade>
                         <div className="flex w-full justify-center titulo-invista pt-14 pb-4">
                             invista na sua liberdade!
                         </div>
-                        <div className="flex flex-wrap justify-center">
+                        <div className="flex flex-wrap justify-center items-center">
                             <div className="flex flex-col pt-12 pl-20">
                                 <div className="flex w-full justify-start invista py-2">
                                     Tratamento de Vaginismo
@@ -139,9 +139,11 @@ export default function Page(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex relative box-valor ml-28 pt-6">
-                                <img src={valor} className="flex absolute pt-4 pr-2" />
-                                <div className="flex absolute botao-invista  justify-center">
+                            <div className="flex flex-col items-center pl-28">
+                                <div className="flex relative box-valor self-center">
+                                    <img src={valor} className="flex absolute pt-4 pr-2" />
+                                </div>
+                                <div className="flex relative botao-invista justify-center pt-24">
                                     <img src={botao} className="flex invistaButton" />
                                     <button type="submit" className="absolute buttonInvista" onClick={() => { window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre"; }}>Quero ser livre</button>
                                 </div>

@@ -42,8 +42,8 @@ export default function Page(props) {
                 <div className="bg-motivos">
                     <Fade>
                         <div className="flex flex-col items-center justify-center pt-10">
-                            <div className="titulo-motivos">03 motivos</div>
-                            <div className="subtitulo-motivos">para você fazer<br /> o tratamento</div>
+                            <div className="titulo-motivos font-lg">03 motivos</div>
+                            <div className="subtitulo-motivos font-regular">para você fazer<br /> o tratamento</div>
                         </div>
                         <div className="flex flex-col justify-center px-20">
                             <div className="flex flex-col items-center justify-self-center">
@@ -72,8 +72,8 @@ export default function Page(props) {
                 <div className="flex flex-col w-full bg-motivos">
                     <Fade>
                         <div className="flex flex-col items-center py-10">
-                            <div className="titulo-motivos">03 motivos</div>
-                            <div className="subtitulo-motivos">para você fazer o tratamento</div>
+                            <div className="titulo-motivos font-big">03 motivos</div>
+                            <div className="subtitulo-motivos font-lg">para você fazer o tratamento</div>
                         </div>
                         <div className="flex flex-wrap w-full items-start justify-around pb-20">
                             <div className="flex flex-col md:w-1/4 w-2/4 items-center pt-4">

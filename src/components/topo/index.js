@@ -44,13 +44,13 @@ export default function Page(props) {
   };
   return (
     isMobile ?
-      <div className="flex-auto bgTopo">
+      <div className="flex-auto bg-topo ">
         <div className="flex-auto flex-col pt-4">
           <div className="flex flex-auto justify-center py-4">
-            <img src={logo} className="imageTopo flex items-center py-4" />
+            <img src={logo} className="imageTopo flex items-center px-10 py-4" />
           </div>
           <div className="flex justify-center py-6">
-            <YouTube className="img-video" videoId={"LSNt6WWPm5c"} opts={opts}/>
+            <YouTube className="img-video px-16" frameborder="0" videoId={"LSNt6WWPm5c"} opts={opts}/>
           </div> 
         </div>
         <div className="tituloTopo pt-6">Livre-se do<br /> vaginismo!
@@ -75,13 +75,13 @@ export default function Page(props) {
                 </div>
                 <div className="descricaoTopo pt-4">Você merece uma vida sem medo e<br /> sem dor durante a penetração.
                 </div>
-                <div className="relative flex justify-center pt-10 pb-10">
+                <div className="relative flex justify-center py-10">
                   <img src={botao} className="flex button-topo" />
                   <button type="submit" className="absolute topo-button" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                 </div>
               </div>
               <div className="flex justify-center">
-              <YouTube className="imgVideo pb-10" videoId={"LSNt6WWPm5c"} opts={opts}/>
+              <YouTube className="imgVideo pb-10" frameborder="0" videoId={"LSNt6WWPm5c"} opts={opts}/>
           </div> 
             </div>
           </div>

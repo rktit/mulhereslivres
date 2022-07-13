@@ -39,14 +39,14 @@ export default function Page(props) {
     return (
         isMobile ?
             <ScrollableAnchor id={'line'}>
-                <div className="flex flex-col w-full bgTratamento pt-10 px-6">
+                <div className="flex flex-col w-full bg-tratamento pt-10 px-6">
                     <div className="flex relative">
-                        <img src={mobileTratamento} className="flex absolute imgTratamento" />
+                        <img src={mobileTratamento} className="flex absolute ml-40" />
                     </div>
                     <Fade>
                         <div className="flex flex-col">
-                            <div className="flex flex-col w-full tituloTratamento pt-4 pb-4">
-                                Para quem é este tratamento?
+                            <div className="flex flex-col w-full tituloTratamento font-regular py-4 pr-10 leading-8">
+                                Para quem é este<br /> tratamento?
                             </div>
                             <div className="flex text-tratamento py-2">
                                 <img src={check} className="img-check self-center pr-3 h-3" width="25" /> Se você tem Vaginismo.
@@ -89,7 +89,7 @@ export default function Page(props) {
                     <Fade>
                     <div className="flex relative">
                         <div className="flex flex-col pl-32">
-                            <div className="tituloTratamento pt-14 pb-4">
+                            <div className="tituloTratamento font-big pt-14 pb-4">
                                 Para quem é este tratamento?
                             </div>
                             <div className="flex text-tratamento py-2">

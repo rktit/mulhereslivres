@@ -264,8 +264,6 @@ a {
   font-family: LeagueSpartan-Medium;
   text-transform: uppercase;
   color: #d75f5f;
-  font-size: 3rem;
-  line-height: 3.25rem;
 }
 .text-tratamento {
   font-size: 1rem;
@@ -300,10 +298,8 @@ a {
 }
 .descricao-etapas {
   color: white;
-  font-size: 1.8rem;
   text-align: center;
   font-family: LeagueSpartan-SemiBold;
-  line-height: 2.25rem;
 }
 .botaoEtapas {
   margin-bottom: -30px;
@@ -344,10 +340,10 @@ a {
   width: 420px;
   height: 280px;
 }
-.botao-invista {
+/* .botao-invista {
   padding-left: 80px;
   margin-top: 360px;
-}
+} */
 
 .invistaButton {
   width: 260px;
@@ -380,14 +376,11 @@ a {
   font-family: agright--regular;
   text-transform: uppercase;
   color: #d75f5f;
-  font-size: 2.5rem;
   text-align: center;
 }
 .subtitulo-dep {
-  font-size: 1.5rem;
   color: #d75f5f;
   text-align: center;
-  line-height: 1.5rem;
   font-family: LeagueSpartan-SemiBold;
 }
 .video-dep {
@@ -402,13 +395,12 @@ a {
   font-family: agright--regular;
   text-transform: uppercase;
   color: #d75f5f;
-  font-size: 3rem;
 }
 .subtitulo-motivos {
   font-family: agright--regular;
+  text-align: center;
   text-transform: uppercase;
   color: #d75f5f;
-  font-size: 2rem;
 }
 .text-motivos {
   font-size: 1.2rem;
@@ -611,7 +603,7 @@ a {
 
 
 
-@media screen and (min-device-width: 1400px) and (max-device-width: 1820px) {
+/* @media screen and (min-device-width: 1400px) and (max-device-width: 1820px) {
   .tituloTopo {
     font-size: 3.5rem;
   }
@@ -668,11 +660,11 @@ a {
     .descricao-garantia {
       margin-top: 20px;
     }
-  }
+  } */
   /* .duvidas {
     margin-left: -360px;
   } */
-
+/* 
 }
 
 @media (min-device-width: 410px) and (max-device-width: 620px) {
@@ -730,9 +722,9 @@ a {
 @media screen and (min-device-width: 280px) and (max-device-width: 620px) {
   .bgTopo {
     background: url(../assets/background/bg-topo.png) center top no-repeat;
-    background-size: cover; 
+    background-size: cover;  */
     /* height: 100%; */
-  }
+  /* }
   .tituloTopo {
     font-size: 1.8rem;
   }
@@ -894,15 +886,15 @@ a {
   }
   .descricao-bio {
     font-size: 1rem;
-    line-height: 1.25rem;
+    line-height: 1.25rem; */
     /* margin-right: 20px;
    margin-bottom: -80px;  */
-  }
+  /* }
   .duvidas {
-    font-size: 2.25rem;
+    font-size: 2.25rem; */
     /* margin-left: -40px; */
-    line-height: 2.5rem;
-  }
+    /* line-height: 2.5rem;
+  } */
   /* .accordion {
     width: 300px;
     height: 80px;
@@ -914,8 +906,8 @@ a {
     font-weight: bold;
     float: right;
     margin-right: -10px;
-  } */
-}
+  } 
+}*/
 
 /* SCROLLBAR */
 @media only screen and (min-width: 600px) {

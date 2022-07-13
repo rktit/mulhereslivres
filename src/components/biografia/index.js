@@ -37,14 +37,14 @@ export default function Page(props) {
     return (
         isMobile ?
             <ScrollableAnchor id={'biografia'}>
-                <div className="bg-bio">
+                <div className="bg-biografia">
                     <Fade>
                         <div className="flex flex-col w-full p-6">
                             <div className="flex relative">
                                 <div className="absolute titulo-bio pt-28">
                                     bio<br />grafia
                                 </div>
-                                <img src={mobileBio} className="flex imgBio" />
+                                <img src={mobileBio} className="flex w-auto pl-20" />
                             </div>
                             <div className="text-bio">
                                 <strong> olá mulherada linda! </strong>
@@ -68,9 +68,9 @@ export default function Page(props) {
             </ScrollableAnchor>
             :
             <ScrollableAnchor id={'biografia'}>
-                <div className="bg-biografia pl-20 py-10">
+                <div className="flex flex-wrap bg-biografia pl-20 py-10">
                     <div className="flex relative">
-                        <img src={Bio} className="flex absolute" />
+                        <img src={Bio} className="flex absolute w-auto" />
                     </div>
                     <Fade>
                         <div className="flex relative">
@@ -99,7 +99,7 @@ export default function Page(props) {
                                 </div>
                             </div>
                             <div className="flex relative">
-                                <img src={deskBio} className="flex flex-auto pr-20 py-10" width="auto" />
+                                <img src={deskBio} className="flex flex-auto pr-20 py-10 h-auto" width="auto" />
                             </div>
                         </div>
 

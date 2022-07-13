@@ -44,7 +44,7 @@ export default function Page(props) {
                     <div className='flex-1 w-full mt-4'>
                         <h2 className="duvidas">DÚVIDAS FREQUENTES</h2>
                     </div>
-                    <div className="flex w-full flex-col items-center justify-center w-full boxFaq pb-10 pr-5 sm:pl-5">
+                    <div className="flex w-full flex-col items-center justify-center w-full boxFaq pb-10 px-5 sm:px-5">
                         {/* <Space className='flex md:w-1/2 w-full items-center' direction="vertical"> */}
                             <Collapse 
                                 className="accordion2"
