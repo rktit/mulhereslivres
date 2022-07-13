@@ -48,7 +48,7 @@ export default function Page(props) {
     )
   }
   const opts = {
-    height: "340",
+    height: "320",
     width: '470',
     playerVars: {
       modestbranding: 1,
@@ -66,7 +66,7 @@ export default function Page(props) {
           </div>
         </div>
         <div className="flex justify-center">
-          <YouTube className="video-dep pt-4 px-48" frameborder="0" videoId={"VFWzueRlKXM"} opts={opts} />
+          <YouTube className="video-dep pt-4 px-48" videoId={"VFWzueRlKXM"} opts={opts} />
         </div>
         <div className="flex pl-3 items-center">
           <div className="flex flex-wrap py-6 justify-center self-center">
@@ -89,7 +89,7 @@ export default function Page(props) {
               Já são mais de 500 mulheres curadas.<br />
             </div>
             <div className="flex justify-center">
-              <YouTube className="video-dep pt-4" frameborder="0" videoId={"VFWzueRlKXM"} opts={opts} />
+              <YouTube className="video-dep pt-4" videoId={"VFWzueRlKXM"} opts={opts} />
             </div>
           </div>
           <div className="flex justify-center align-center">
@@ -100,7 +100,7 @@ export default function Page(props) {
                   </div>
                 </div>
 
-                <div className="flex w-auto px-20">
+                <div className="flex w-auto px-0 md:px-20">
                   <div className="content-center">
                     <Splide
                       ref={ref}
