@@ -81,8 +81,8 @@ export default function Page(props) {
                             <div className="subtitulo-etapas pb-10 pt-2">Você está a <strong>4 etapas</strong> da cura!</div>
                         </div>
                         <div className="flex flex-wrap justify-center items-center">
-                            <div className="flex img-etapas px-6">
-                                <img src={etapa1} className="flex" width="250" />
+                            <div className="flex img-etapas px-6 pr-0">
+                                <img src={etapa1} className="flex" width="230" />
                             </div>
                             <div className="flex img-etapas px-6">
                                 <img src={etapa2} className="flex" width="250" />

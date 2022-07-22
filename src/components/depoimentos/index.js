@@ -89,7 +89,7 @@ export default function Page(props) {
               Já são mais de 500 mulheres curadas.<br />
             </div>
             <div className="flex justify-center">
-              <YouTube className="video-dep pt-4" videoId={"VFWzueRlKXM"} opts={opts} />
+              <YouTube className="flex video-dep pt-4" videoId={"VFWzueRlKXM"} opts={opts} />
             </div>
           </div>
           <div className="flex justify-center align-center">
@@ -115,17 +115,17 @@ export default function Page(props) {
                         type: 'loop',
                       }}
                     >
-                      <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                        <img src={dep1} className="md-h-full" />
+                      <SplideSlide className="flex justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
+                        <img src={dep1} className="flex md-h-full" />
                       </SplideSlide>
-                      <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                        <img src={dep2} className="md-h-full" />
+                      <SplideSlide className="flex justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
+                        <img src={dep2} className="flex md-h-full" />
                       </SplideSlide>
-                      <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                        <img src={dep3} className="md-h-full" />
+                      <SplideSlide className="flex justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
+                        <img src={dep3} className="flex md-h-full" />
                       </SplideSlide>
-                      <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                        <img src={dep4} className="md-h-full" />
+                      <SplideSlide className="flex justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
+                        <img src={dep4} className="flex md-h-full" />
                       </SplideSlide>
 
                     </Splide>

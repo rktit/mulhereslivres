@@ -98,8 +98,8 @@ export default function Page(props) {
                                     essa disfunção, trazendo de volta a felicidade para a vida íntima de cada uma delas.
                                 </div>
                             </div>
-                            <div className="flex relative">
-                                <img src={deskBio} className="flex flex-auto pr-20 py-10 h-auto" width="auto" />
+                            <div className="flex flex-auto relative">
+                                <img src={deskBio} className="flex pr-20 py-10" width="auto" />
                             </div>
                         </div>
 

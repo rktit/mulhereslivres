@@ -41,7 +41,7 @@ export default function Page(props) {
             <ScrollableAnchor id={'line'}>
                 <div className="flex flex-col w-full bg-tratamento pt-10 px-6">
                     <div className="flex relative">
-                        <img src={mobileTratamento} className="flex absolute ml-40" />
+                        <img src={mobileTratamento} className="flex flex-auto absolute ml-40" />
                     </div>
                     <Fade>
                         <div className="flex flex-col">
@@ -89,7 +89,7 @@ export default function Page(props) {
                     <Fade>
                     <div className="flex relative">
                         <div className="flex flex-col pl-32">
-                            <div className="tituloTratamento font-big pt-14 pb-4">
+                            <div className="flex tituloTratamento font-big pt-14 pb-4">
                                 Para quem é este tratamento?
                             </div>
                             <div className="flex text-tratamento py-2">

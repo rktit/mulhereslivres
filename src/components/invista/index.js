@@ -145,7 +145,7 @@ export default function Page(props) {
                                 </div>
                                 <div className="flex relative botao-invista justify-center pt-24">
                                     <img src={botao} className="flex invistaButton" />
-                                    <button type="submit" className="absolute buttonInvista" onClick={() => { window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre"; }}>Quero ser livre</button>
+                                    <button type="submit" className="absolute buttonInvista pr-0" onClick={() => { window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre"; }}>Quero ser livre</button>
                                 </div>
                             </div>
                         </div>
