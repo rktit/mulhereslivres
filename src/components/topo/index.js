@@ -46,19 +46,19 @@ export default function Page(props) {
   return (
     isMobile ?
       <div className="flex-auto bg-topo ">
-        <div className="flex-auto flex-col pt-4">
+        <div className="flex-auto flex-col pt-2">
           <div className="flex flex-auto justify-center py-4">
             <img src={logo} className="imageTopo flex items-center px-10 py-4" />
           </div>
-          <div className="flex justify-center py-6">
+          <div className="flex justify-center">
             <YouTube className="imgVideo px-16" frameborder="0" videoId={"LSNt6WWPm5c"} opts={opts}/>
           </div> 
         </div>
-        <div className="tituloTopo pt-6">Livre-se do<br /> vaginismo!
+        <div className="tituloTopo pt-6 font-regular">Livre-se do<br /> vaginismo!
           </div>
           <div className="descricaoTopo pt-2">Você merece uma vida sem medo e<br /> sem dor durante a penetração.
           </div>
-        <div className="relative flex justify-center pt-6 pb-10">
+        <div className="relative flex justify-center pt-6 pb-6">
           <img src={botao} className="flex button-topo" />
           <button type="submit" className="absolute topo-button pt-1" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
         </div>
