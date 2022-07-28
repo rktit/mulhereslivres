@@ -48,10 +48,10 @@ export default function Page(props) {
       <div className="flex-auto bg-topo ">
         <div className="flex-auto flex-col pt-2">
           <div className="flex flex-auto justify-center py-4">
-            <img src={logo} className="imageTopo flex items-center px-10 py-4" />
+            <img src={logo} className="flex items-center px-10 py-4" />
           </div>
           <div className="flex justify-center">
-            <YouTube className="imgVideo px-16" frameborder="0" videoId={"LSNt6WWPm5c"} opts={opts}/>
+            <YouTube className="imgVideo " frameborder="0" videoId={"LSNt6WWPm5c"} opts={opts}/>
           </div> 
         </div>
         <div className="tituloTopo pt-6 font-regular">Livre-se do<br /> vaginismo!
@@ -68,11 +68,11 @@ export default function Page(props) {
       <div className="flex w-full bg-topo">
         <div className="flex-auto">
             <div className="flex justify-center py-20">
-              <img src={logo} className="flex justify-self-center justify-center" width="auto-" />
+              <img src={logo} className="flex justify-self-center justify-center" width="auto" />
             </div>
             <div className="flex flex-wrap justify-center space-x-20">
               <div className="flex flex-col">
-                <div className="tituloTopo">Livre-se do<br /> vaginismo!
+                <div className="tituloTopo font-big">Livre-se do<br /> vaginismo!
                 </div>
                 <div className="descricaoTopo pt-4">Você merece uma vida sem medo e<br /> sem dor durante a penetração.
                 </div>

@@ -41,7 +41,7 @@ export default function Page(props) {
             <ScrollableAnchor id={'line'}>
                 <div className="flex flex-col w-full bg-tratamento pt-10 px-6">
                     <div className="flex relative">
-                        <img src={mobileTratamento} className="flex flex-auto absolute ml-40" />
+                        <img src={mobileTratamento} className="flex flex-auto absolute ml-40 imgTratamento" />
                     </div>
                     <Fade>
                         <div className="flex flex-col">
@@ -120,12 +120,12 @@ export default function Page(props) {
                                 <img src={check} className="self-center pr-3 h-3" width="25" /> Para quem sente que existe uma parede na entrada do canal vaginal.
                             </div>
                             <div className="info-tratamento pt-6 pb-32">
-                                Se você ficou com qualquer dúvida, clique no botão do <strong className="whatsapp px-1"> WhatsApp </strong> ao lado e fale com nossa equipe agora mesmo.
+                                Se você ficou com qualquer dúvida, clique no botão do <strong className="whatsapp px-1"> WhatsApp </strong> ao lado<br /> e fale com nossa equipe agora mesmo.
                             </div>
                         </div>
-                        <div className="flex relative self-start">
-                            <img src={deskTratamento} className="flex" width="auto"/>
-                        </div>
+                        {/* <div className="flex relative self-start">
+                            <img src={deskTratamento} className="flex imgTratamento"/>
+                        </div> */}
                     </div>
                     </Fade>
                     <Etapas />

@@ -248,7 +248,7 @@ a {
 }
 
 .bg-tratamento {
-  background: url(../assets/background/bg-tratamento.png) center no-repeat;
+  background: url(../assets/background/bgtratamento.png) center left no-repeat;
   background-size: cover;
   width: 100%;
   height: auto;
@@ -419,7 +419,7 @@ a {
   text-transform: uppercase;
 }
 .bg-biografia {
-  background: url(../assets/background/bg-biografia.png) center top no-repeat;
+  background: url(../assets/background/bgbiografia.png) center top no-repeat;
   background-size: cover; 
 }
 .titulo-bio{
