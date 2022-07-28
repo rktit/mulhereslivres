@@ -419,9 +419,10 @@ a {
   text-transform: uppercase;
 }
 .bg-biografia {
-  background: url(../assets/background/bgbiografia.png) center left no-repeat;
+  background: url(../assets/background/bgbiografia.png) left top no-repeat;
   background-size: cover; 
 }
+
 .titulo-bio{
   text-align: left;
   text-transform: uppercase;
