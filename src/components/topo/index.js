@@ -51,7 +51,7 @@ export default function Page(props) {
             <img src={logo} className="flex items-center px-10 py-4" />
           </div>
           <div className="flex justify-center">
-            <YouTube className="imgVideo " frameborder="0" videoId={"LSNt6WWPm5c"} opts={opts}/>
+            <YouTube className="imgVideo px-6" frameborder="0" videoId={"LSNt6WWPm5c"} opts={opts}/>
           </div> 
         </div>
         <div className="tituloTopo pt-6 font-regular">Livre-se do<br /> vaginismo!
