@@ -382,8 +382,8 @@ a {
   font-family: LeagueSpartan-SemiBold;
 }
 .video-dep {
-  width: 700px;
-  height: 380px;
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }
 .bg-motivos {
   background: url(../assets/background/bg-motivos.png) center top no-repeat;

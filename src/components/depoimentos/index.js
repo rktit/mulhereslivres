@@ -89,7 +89,7 @@ export default function Page(props) {
               Já são mais de 500 mulheres curadas.<br />
             </div>
             <div className="flex justify-center">
-              <YouTube className="flex video-dep pt-4" videoId={"VFWzueRlKXM"} opts={opts} />
+              <YouTube className="flex video-dep px-10 md:px-0 pt-4" videoId={"VFWzueRlKXM"} opts={opts} />
             </div>
           </div>
           <div className="flex justify-center align-center">

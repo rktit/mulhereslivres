@@ -97,7 +97,7 @@ export default function Page(props) {
                             invista na sua liberdade!
                         </div>
                         <div className="flex flex-wrap justify-center items-center">
-                            <div className="flex flex-col pt-12 pl-20">
+                            <div className="flex flex-col pt-12 pl-10 md:pl-20">
                                 <div className="flex w-full justify-start invista py-2">
                                     Tratamento de Vaginismo
                                 </div>
@@ -139,7 +139,7 @@ export default function Page(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col items-center pl-28">
+                            <div className="flex flex-col items-center pl-14 md:pl-28">
                                 <div className="flex relative box-valor self-center">
                                     <img src={valor} className="flex absolute pt-4 pr-2" />
                                 </div>

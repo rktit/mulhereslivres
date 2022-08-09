@@ -75,7 +75,7 @@ export default function Page(props) {
                             <div className="titulo-motivos font-big">03 motivos</div>
                             <div className="subtitulo-motivos font-lg">para você fazer o tratamento</div>
                         </div>
-                        <div className="flex flex-wrap w-full items-start justify-around pb-20">
+                        <div className="flex flex-wrap w-full items-start justify-around pb-20 pl-4 md:pl-0">
                             <div className="flex flex-col md:w-1/4 w-2/4 items-center pt-4">
                                 <div className='justify-center'>
                                     <img src={motivo1} className="flex w-auto"/>

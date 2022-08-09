@@ -70,7 +70,7 @@ export default function Page(props) {
             <div className="flex justify-center py-20">
               <img src={logo} className="flex justify-self-center justify-center" width="auto" />
             </div>
-            <div className="flex flex-wrap justify-center space-x-20">
+            <div className="flex flex-wrap justify-center space-x-10">
               <div className="flex flex-col">
                 <div className="tituloTopo font-big">Livre-se do<br /> vaginismo!
                 </div>
@@ -81,8 +81,8 @@ export default function Page(props) {
                   <button type="submit" className="absolute topo-button" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
                 </div>
               </div>
-              <div className="flex justify-center">
-              <YouTube className="imgVideo pb-10" frameborder="0" videoId={"LSNt6WWPm5c"} opts={opts}/>
+              <div className="flex justify-center -pl-4 md:pl-10">
+              <YouTube className="imgVideo pb-10 pr-8 md:pr-0" frameborder="0" videoId={"LSNt6WWPm5c"} opts={opts}/>
           </div> 
             </div>
           </div>

@@ -88,7 +88,7 @@ export default function Page(props) {
                 <div className="flex w-full flex-col pt-10 px-8 bg-tratamento">
                     <Fade>
                     <div className="flex relative">
-                        <div className="flex flex-col pl-32">
+                        <div className="flex flex-col pl-10 md:pl-32">
                             <div className="flex tituloTratamento font-big pt-14 pb-4">
                                 Para quem é este tratamento?
                             </div>
