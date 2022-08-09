@@ -44,7 +44,7 @@ export default function Page(props) {
                 <div className="bg-invista pt-10 px-4">
                     <Fade>
                         <div className="flex flex-col justify-center">
-                            <div className="titulo-invista pt-14 pb-4">
+                            <div className="titulo-invista font-lg pt-14 pb-4">
                                 invista na sua<br />
                                 <div className="invistaTitulo"> liberdade!</div>
                             </div>
@@ -93,7 +93,7 @@ export default function Page(props) {
             <ScrollableAnchor id={'invista'}>
                 <div className="flex w-full flex-col bg-invista py-20">
                     <Fade>
-                        <div className="flex w-full justify-center titulo-invista pt-14 pb-4">
+                        <div className="flex w-full justify-center titulo-invista font-xl pt-14 pb-4">
                             invista na sua liberdade!
                         </div>
                         <div className="flex flex-wrap justify-center items-center">

@@ -58,7 +58,7 @@ export default function Page(props) {
     isMobile ?
       <div className="bg-white">
         <div className="flex-auto flex-col pt-10" >
-          <div className="titulo-dep font-regular" >
+          <div className="titulo-dep font-xtra" >
             Elas já encontraram a<br /> liberdade do vaginismo!<br />
           </div>
           <div className="subtitulo-dep pb-5 font-medium">
@@ -66,7 +66,7 @@ export default function Page(props) {
           </div>
         </div>
         <div className="flex justify-center">
-          <YouTube className="video-dep pt-4 px-48" videoId={"VFWzueRlKXM"} opts={opts} />
+          <YouTube className="videoDep pt-4 px-48" videoId={"VFWzueRlKXM"} opts={opts} />
         </div>
         <div className="flex pl-3 items-center">
           <div className="flex flex-wrap py-6 justify-center self-center">
@@ -82,7 +82,7 @@ export default function Page(props) {
       <ScrollableAnchor id={'depoimentos'}>
         <div className="flex flex-col w-full bg-white">
           <div className="flex flex-col">
-            <div className="titulo-dep pt-20 font-big" >
+            <div className="titulo-dep pt-20 font-xl" >
               Elas já encontraram a <br />liberdade do vaginismo!
             </div>
             <div className="subtitulo-dep pt-4 font-regular">

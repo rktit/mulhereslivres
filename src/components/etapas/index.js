@@ -46,7 +46,7 @@ export default function Page(props) {
                 <div className="pt-10 px-4">
                     <Fade>
                         <div className="flex flex-col">
-                            <div className="titulo-etapas">Como será o tratamento?</div>
+                            <div className="titulo-etapas font-lg">Como será o tratamento?</div>
                             <div className="subtitulo-etapas pb-8 pt-2">Você está a <strong>4 etapas</strong> da cura!</div>
                         </div>
                         <div className="flex flex-wrap justify-center items-center">
@@ -77,7 +77,7 @@ export default function Page(props) {
                 <div className="flex w-full flex-col">
                     <Fade>
                         <div className="flex flex-col w-full">
-                            <div className="titulo-etapas">Como será o tratamento?</div>
+                            <div className="titulo-etapas font-lg">Como será o tratamento?</div>
                             <div className="subtitulo-etapas pb-10 pt-2">Você está a <strong>4 etapas</strong> da cura!</div>
                         </div>
                         <div className="flex flex-wrap justify-center items-center">

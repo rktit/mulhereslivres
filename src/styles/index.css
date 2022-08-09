@@ -121,11 +121,17 @@ a {
 .font-medium {
   font-size: 1.2rem;
 }
+.font-xtra{
+  font-size: 1.4rem;
+}
 .font-regular {
   font-size: 1.6rem;
 }
 .font-lg {
   font-size: 2rem;
+}
+.font-xl {
+  font-size: 2.5rem;
 }
 .font-big {
   font-size: 3rem;
@@ -281,7 +287,6 @@ a {
   font-family: agright--regular;
   text-transform: uppercase;
   color: #d75f5f;
-  font-size: 2.25rem;
   text-align: center;
 }
 .subtitulo-etapas {
@@ -321,7 +326,6 @@ a {
   font-family: agright--regular;
   text-transform: uppercase;
   color: white;
-  font-size: 2.5rem;
   text-align: center;
 }
 .invista {
@@ -384,6 +388,10 @@ a {
 .video-dep {
   aspect-ratio: 16 / 9;
   width: 100%;
+}
+
+.videoDep {
+  width: 680px;
 }
 .bg-motivos {
   background: url(../assets/background/bg-motivos.png) center top no-repeat;
