@@ -261,8 +261,8 @@ a {
 }
 .imgTratamento {
   /* margin-right: 120px; */
-  width: 100%;
-  height: auto;
+  width: auto;
+  
 }
 .tituloTratamento {
   font-family: LeagueSpartan-Medium;

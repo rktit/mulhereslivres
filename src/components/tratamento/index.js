@@ -41,7 +41,7 @@ export default function Page(props) {
             <ScrollableAnchor id={'line'}>
                 <div className="flex flex-col w-full bg-tratamento pt-10 px-6">
                     <div className="flex relative">
-                        <img src={mobileTratamento} className="flex flex-auto absolute ml-40 imgTratamento" />
+                        <img src={mobileTratamento} className="flex-auto absolute ml-40 imgTratamento" />
                     </div>
                     <Fade>
                         <div className="flex flex-col">
