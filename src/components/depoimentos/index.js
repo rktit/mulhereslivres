@@ -62,7 +62,7 @@ export default function Page(props) {
             Elas já encontraram a<br /> liberdade do vaginismo!<br />
           </div>
           <div className="subtitulo-dep pb-5 font-medium">
-            Já são mais de 500 mulheres curadas.<br />
+            Já são mais de 700 mulheres curadas.<br />
           </div>
         </div>
         <div className="flex justify-center">
@@ -86,7 +86,7 @@ export default function Page(props) {
               Elas já encontraram a <br />liberdade do vaginismo!
             </div>
             <div className="subtitulo-dep pt-4 font-regular">
-              Já são mais de 500 mulheres curadas.<br />
+              Já são mais de 700 mulheres curadas.<br />
             </div>
             <div className="flex justify-center">
               <YouTube className="flex video-dep px-10 md:px-0 pt-4" videoId={"VFWzueRlKXM"} opts={opts} />
