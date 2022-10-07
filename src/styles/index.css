@@ -342,6 +342,28 @@ a {
   width: 420px;
   height: 280px;
 }
+.box-bonus {
+  border-radius: 1rem;
+  border-width: 2px;
+  border-color: rgb(244 114 182);
+  border-style: solid;
+  width: 360px;
+  height: 155px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  margin-top: 50px;
+}
+.titulo-bonus {    
+  color: #ad5677;
+  font-family: agright--regular;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+}
+.descricao-bonus{
+  color: #ad5677;  
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-family: LeagueSpartan-SemiBold;
+}
 /* .botao-invista {
   padding-left: 80px;
   margin-top: 360px;
@@ -361,18 +383,20 @@ a {
 .button-garantia{
   width: 360px;
   height: 200px;
-  margin-top: -100px;
+  margin-top: -46px;
 }
 .titulo-garantia {
   color: white;
   font-size: 1.75rem;
   font-family: LeagueSpartan-SemiBold;
-  margin-top: -20px;
+  margin-top: 30px;
 }
 .descricao-garantia {
   font-size: 1rem;
   color: white;
   line-height: 1.2rem;
+  margin-top: 44px;
+
 }
 .titulo-dep {
   font-family: agright--regular;
