@@ -51,7 +51,7 @@ export default function Page(props) {
             <img src={logo} className="flex items-center px-10 py-4" />
           </div>
           <div className="flex justify-center">
-            <YouTube className="imgVideo px-6" frameborder="0" videoId={"LSNt6WWPm5c"} opts={opts}/>
+            <YouTube className="imgVideo px-6" frameborder="0" videoId={"Fy4SRQ3n2zE"} opts={opts}/>
           </div> 
         </div>
         <div className="tituloTopo pt-6 font-regular">Livre-se do<br /> vaginismo!
@@ -60,7 +60,7 @@ export default function Page(props) {
           </div>
         <div className="relative flex justify-center pt-6 pb-6">
           <img src={botao} className="flex button-topo" />
-          <button type="submit" className="absolute topo-button pt-1" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
+          <button type="submit" className="absolute topo-button pt-1" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=seja%20livre";}}>Quero ser livre</button>
         </div>
       </div>
       :
@@ -78,11 +78,11 @@ export default function Page(props) {
                 </div>
                 <div className="relative flex justify-center py-10">
                   <img src={botao} className="flex button-topo" />
-                  <button type="submit" className="absolute topo-button" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
+                  <button type="submit" className="absolute topo-button" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=seja%20livre";}}>Quero ser livre</button>
                 </div>
               </div>
               <div className="flex justify-center -pl-4 md:pl-10">
-              <YouTube className="imgVideo pb-10 pr-8 md:pr-0" frameborder="0" videoId={"LSNt6WWPm5c"} opts={opts}/>
+              <YouTube className="imgVideo pb-10 pr-8 md:pr-0" frameborder="0" videoId={"Fy4SRQ3n2zE"} opts={opts}/>
           </div> 
             </div>
           </div>

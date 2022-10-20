@@ -62,7 +62,7 @@ export default function Page(props) {
                         
                         <div className="relative flex justify-center py-10">
                             <img src={botao} className="flex motivosButton" />
-                            <button type="submit" className="absolute buttonMotivos"  onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
+                            <button type="submit" className="absolute buttonMotivos"  onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=seja%20livre";}}>Quero ser livre</button>
                         </div>
                     </Fade>
                 </div>
@@ -98,7 +98,7 @@ export default function Page(props) {
 
                         <div className="relative flex justify-center py-10">
                             <img src={botao} className="flex motivosButton" />
-                            <button type="submit" className="absolute buttonMotivos" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
+                            <button type="submit" className="absolute buttonMotivos" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=seja%20livre";}}>Quero ser livre</button>
                         </div>
                     </Fade>
                 </div >

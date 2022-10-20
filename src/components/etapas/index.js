@@ -67,7 +67,7 @@ export default function Page(props) {
                         </div>
                         <div className="flex relative botaoEtapas justify-center pt-6">
                             <img src={botao} className="flex etapasButton" />
-                            <button type="submit" className="absolute buttonEtapas"onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
+                            <button type="submit" className="absolute buttonEtapas"onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=seja%20livre";}}>Quero ser livre</button>
                         </div>
                     </Fade>
                 </div>
@@ -99,7 +99,7 @@ export default function Page(props) {
                         </div>
                         <div className="relative flex botaoEtapas justify-center">
                             <img src={botao} className="flex etapasButton" />
-                            <button type="submit" className="absolute buttonEtapas" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre";}}>Quero ser livre</button>
+                            <button type="submit" className="absolute buttonEtapas" onClick={()=>{window.location.href = "https://sun.eduzz.com/1436910?cupom=seja%20livre";}}>Quero ser livre</button>
                         </div>
                     </Fade>
                 </div >

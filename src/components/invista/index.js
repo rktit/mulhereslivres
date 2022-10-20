@@ -73,7 +73,7 @@ export default function Page(props) {
                             </div>
                             <div className="flex relative botao-invista justify-center -mt-20">
                                 <img src={botao} className="flex invistaButton" />
-                                <button type="submit" className="absolute buttonInvista" onClick={() => { window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre"; }}>Quero ser livre</button>
+                                <button type="submit" className="absolute buttonInvista" onClick={() => { window.location.href = "https://sun.eduzz.com/1436910?cupom=seja%20livre"; }}>Quero ser livre</button>
                             </div>
                             <div className="flex flex-col box-bonus text-center items-center place-self-center">
                                     <div className="flex titulo-bonus pt-5">
@@ -140,7 +140,7 @@ export default function Page(props) {
                                 </div>
                                 <div className="flex relative botao-invista justify-center pt-24">
                                     <img src={botao} className="flex invistaButton" />
-                                    <button type="submit" className="absolute buttonInvista pr-0" onClick={() => { window.location.href = "https://sun.eduzz.com/1436910?cupom=sejalivre"; }}>Quero ser livre</button>
+                                    <button type="submit" className="absolute buttonInvista pr-0" onClick={() => { window.location.href = "https://sun.eduzz.com/1436910?cupom=seja%20livre"; }}>Quero ser livre</button>
                                 </div>
                             </div>
                         </div>
