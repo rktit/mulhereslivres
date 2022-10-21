@@ -66,7 +66,7 @@ export default function Page(props) {
           </div>
         </div>
         <div className="flex justify-center">
-          <YouTube className="videoDep pt-4 px-48" videoId={"Fy4SRQ3n2zE"} opts={opts} />
+          <YouTube className="videoDep pt-4 px-48" videoId={"VFWzueRlKXM"} opts={opts} />
         </div>
         <div className="flex pl-3 items-center">
           <div className="flex flex-wrap py-6 justify-center self-center">
@@ -89,7 +89,7 @@ export default function Page(props) {
               Já são mais de 700 mulheres curadas.<br />
             </div>
             <div className="flex justify-center">
-              <YouTube className="flex video-dep px-10 md:px-0 pt-4" videoId={"Fy4SRQ3n2zE"} opts={opts} />
+              <YouTube className="flex video-dep px-10 md:px-0 pt-4" videoId={"VFWzueRlKXM"} opts={opts} />
             </div>
           </div>
           <div className="flex justify-center align-center">
